@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import {Link} from "react-router-dom";
+import { useHistory, Link } from  "react-router-dom"
 import {
   Table,
   Button,
@@ -12,7 +12,7 @@ import {
 
     function Consultarc() {
 
-  
+      const history = useHistory();
             return (
         
               <>
@@ -28,9 +28,9 @@ import {
                 </div> 
                 <br></br>
                 <div align="right" class="menubutton">
-                  <Link to="/ccenter">
-                  <button type="submit">Menu</button>
-                  </Link>
+                <button onClick={() => {
+                    history.goBack();
+                }} type="submit">Menu</button>
                 </div>
                 <br></br>
                 <div align="center"> 

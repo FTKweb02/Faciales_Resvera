@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import {Link} from "react-router-dom";
+import {Link, useHistory } from "react-router-dom";
 import $ from "jquery";
 import './rCliente.css';
 import {
@@ -14,6 +14,7 @@ import {
 
     function Rcliente() {
 
+      const history = useHistory();
       var FormStuff = {
   
         init: function() {
@@ -60,9 +61,9 @@ import {
                 </div> 
                 <br></br>
                 <div align="right" class="menubutton">
-                  <Link to="/ccenter">
-                  <button type="submit">Menu</button>
-                  </Link>
+                <button onClick={() => {
+                    history.goBack();
+                }} type="submit">Menu</button>
                 </div>
                 <br></br>
                 <form method="post" action="#">

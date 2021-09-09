@@ -31,19 +31,19 @@ class Contactc extends React.Component {
       
         <Container align="center">
             <br></br>
-            <h1>Menu</h1>
+            <h1>Menú</h1>
             <br></br>
             <Link to="/agendarc">
             <button class="button" type="submit">Agendar</button>
             </Link>
             <br></br>
             <br></br>
-            <Link to="/">
+            <Link to="/vender">
             <button class="button" type="submit">Vender</button>
             </Link>
             <br></br>
             <br></br>
-            <Link to="/">
+            <Link to="/pendientes">
             <button class="button" type="submit">Pendientes</button>
             </Link>
             <br></br>
@@ -53,7 +53,7 @@ class Contactc extends React.Component {
             </Link>
             <br></br>
             <br></br>
-            <Link to="/">
+            <Link to="/clientescc">
             <button class="button" type="submit">Clientes</button>
             </Link>
             <br></br>

@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import {Link} from "react-router-dom";
+import {Link, useHistory} from "react-router-dom";
 import {
   Table,
   Button,
@@ -12,9 +12,10 @@ import {
 
     function Agendarc() {
 
+      const history = useHistory();
   
             return (
-        
+              
               <>
                 <div>
                   <Navbar className="color-nav" variant="light">
@@ -28,13 +29,13 @@ import {
                 </div> 
                 <br></br>
                 <div align="right" class="menubutton">
-                  <Link to="/ccenter">
-                  <button type="submit">Menu</button>
-                  </Link>
+                  <button onClick={() => {
+                    history.goBack();
+                }} type="submit">Menu</button>
                 </div>
                 <br></br>
                 <div align="center"> 
-                  <h1>Agenda Pro</h1>
+                  <h1>Agenda Proooo</h1>
                 </div>
               </>
             );

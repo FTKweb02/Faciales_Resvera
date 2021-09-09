@@ -12,7 +12,7 @@ import {
  
 } from "reactstrap";
 
-    function Calendario() {
+    function Citfac() {
 
       const history = useHistory();
       const [value, onChange] = useState(new Date());
@@ -39,23 +39,18 @@ import {
                 <br></br>
                 <br></br>
                 <Container align="center">
-                  <h1>Calendario</h1>
+                  <h1>Citas del día</h1>
                   <br></br>
-                  <Calendar>
-                  onChange={onChange}
-                  value={value}
+                  <Calendar Date="today">
+                    onChange={onChange}
+                    value={value}
                   </Calendar>
                 </Container>
                 
-                
-
-                
               </>
-
-              
             );
           }
         
         
 
-    export default Calendario;
+    export default Citfac;

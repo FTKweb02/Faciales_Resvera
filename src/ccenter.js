@@ -31,7 +31,7 @@ class Ccenter extends React.Component {
       
         <Container align="center">
             <br></br>
-            <h1>Menu</h1>
+            <h1>Menú</h1>
             <br></br>
             <Link to="/calendario">
             <button class="button" type="submit">Calendario</button>

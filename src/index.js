@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch} from "react-router-dom";
 import $ from 'jquery';
 import Login from "./login.js";
 import Ccenter from "./ccenter.js";
@@ -12,6 +12,12 @@ import Agendarc from "./agendarC.js";
 import Consultarc from "./consultarC.js"
 import Historial from "./historial.js";
 import Contactc from "./contactc.js"
+import Clientescc from "./clientescc.js";
+import Pendientes from "./pendientes.js";
+import Vender from "./vender.js";
+import Facialista from "./facialista.js";
+import Citfac from "./citfac.js";
+
 
  const rootElement = document.getElementById("root");
  ReactDOM.render(
@@ -27,6 +33,11 @@ import Contactc from "./contactc.js"
      <Route path="/consultarc" component={Consultarc} />
      <Route path="/historial" component={Historial} />
      <Route path="/contactc" component={Contactc} />
+     <Route path="/clientescc" component={Clientescc} />
+     <Route path="/pendientes" component={Pendientes} />
+     <Route path="/vender" component={Vender} />
+     <Route path="/facialista" component={Facialista} />
+     <Route path="/citfac" component={Citfac} />
    </Switch>
    </BrowserRouter>,
    rootElement

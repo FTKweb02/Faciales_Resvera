@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import {Link} from "react-router-dom";
+import {Link, useHistory } from "react-router-dom";
 import {
   Table,
   Button,
@@ -12,7 +12,8 @@ import {
 
     function Historial() {
 
-  
+      const history = useHistory();
+
             return (
         
               <>
@@ -28,9 +29,9 @@ import {
                 </div> 
                 <br></br>
                 <div align="right" class="menubutton">
-                  <Link to="/ccenter">
-                    <button type="submit">Menu</button>
-                  </Link>
+                <button onClick={() => {
+                    history.goBack();
+                }} type="submit">Menu</button>
                 </div>
                 <div align="center"> 
                   <h2>Historial de ventas de: <b>'Vendedor'</b></h2>
