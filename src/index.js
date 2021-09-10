@@ -14,7 +14,6 @@ import Historial from "./historial.js";
 import Contactc from "./contactc.js"
 import Clientescc from "./clientescc.js";
 import Pendientes from "./pendientes.js";
-import Vender from "./vender.js";
 import Facialista from "./facialista.js";
 import Citfac from "./citfac.js";
 
@@ -35,7 +34,6 @@ import Citfac from "./citfac.js";
      <Route path="/contactc" component={Contactc} />
      <Route path="/clientescc" component={Clientescc} />
      <Route path="/pendientes" component={Pendientes} />
-     <Route path="/vender" component={Vender} />
      <Route path="/facialista" component={Facialista} />
      <Route path="/citfac" component={Citfac} />
    </Switch>

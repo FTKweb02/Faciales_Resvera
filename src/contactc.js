@@ -38,7 +38,7 @@ class Contactc extends React.Component {
             </Link>
             <br></br>
             <br></br>
-            <Link to="/vender">
+            <Link to="/rventa">
             <button class="button" type="submit">Vender</button>
             </Link>
             <br></br>
