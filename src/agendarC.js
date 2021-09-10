@@ -35,7 +35,7 @@ import {
                 </div>
                 <br></br>
                 <div align="center"> 
-                  <h1>Agenda Proooo</h1>
+                  <h1>Agenda Pro</h1>
                 </div>
               </>
             );

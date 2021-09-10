@@ -16,6 +16,7 @@ import Clientescc from "./clientescc.js";
 import Pendientes from "./pendientes.js";
 import Facialista from "./facialista.js";
 import Citfac from "./citfac.js";
+import Admin from "./admin.js";
 
 
  const rootElement = document.getElementById("root");
@@ -36,6 +37,7 @@ import Citfac from "./citfac.js";
      <Route path="/pendientes" component={Pendientes} />
      <Route path="/facialista" component={Facialista} />
      <Route path="/citfac" component={Citfac} />
+     <Route path="/admin" component={Admin} />
    </Switch>
    </BrowserRouter>,
    rootElement
