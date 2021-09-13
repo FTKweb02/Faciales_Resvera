@@ -54,7 +54,7 @@ function Rcliente() {
       <div>
         <Navbar className="color-nav" variant="light">
           <Link to="/">
-            <input type="image" id="image" alt="Home" src="logomq2.png" width="80px" />
+            <input type="image" id="image" alt="Home" src="Logo-FTK-new-blanco.png" width="150px" />
           </Link>
           <Link to="/">
             <button className="buttonis"><b>Cerrar Sesion</b></button>
@@ -67,8 +67,8 @@ function Rcliente() {
           <Col></Col>
           <Col sm={10} align="center"><h1>Registrar Cliente</h1></Col>
           <Col><button class="menubutton" onClick={() => {
-          history.goBack();
-        }} type="submit">Menu</button></Col>
+            history.goBack();
+          }} type="submit">Menu</button></Col>
         </Row>
       </Container>
       <br></br>
@@ -76,23 +76,23 @@ function Rcliente() {
       <form method="post">
         <Container fluid>
           <Row>
-            <Col><input type="radio" name="marca" id="vinevera"></input>&nbsp;<img src="logomq2.png" class="logos"></img>
-              <label for="vinevera">Vine Vera</label>&nbsp;</Col>
-            <Col><input type="radio" name="marca" id="orogold"></input>&nbsp;<img src="logomq2.png" class="logos"></img>
-              <label for="orogold">Orogold</label>&nbsp;</Col>
-            <Col><input type="radio" name="marca" id="reservec"></input>&nbsp;<img src="logomq2.png" class="logos"></img>
-              <label for="reservec">Reserve Cut</label>&nbsp;</Col>
-            <Col><input type="radio" name="marca" id="resvera"></input>&nbsp;<img src="logomq2.png" class="logos"></img>
-              <label for="resvera">Resvera</label>&nbsp;</Col>
-            <Col><input type="radio" name="marca" id="umaf"></input>&nbsp;<img src="logomq2.png" class="logos"></img>
-              <label for="umaf">Umaf</label>&nbsp;</Col>
-            <Col><input type="radio" name="marca" id="vvxp"></input>&nbsp;<img src="logomq2.png" class="logos"></img>&nbsp;
-              <label for="vvxp">VV Experience</label></Col>
+            <Col><input type="radio" name="marca" id="vinevera"></input>&nbsp;<img src="VV_LOGO_Black.png" class="logovv"></img>
+              <label for="vinevera"></label>&nbsp;</Col>
+            <Col><input type="radio" name="marca" id="orogold"></input>&nbsp;<img src="orogold-dorado@4x.png" class="logoog"></img>
+              <label for="orogold"></label>&nbsp;</Col>
+            <Col><input type="radio" name="marca" id="reservec"></input>&nbsp;<img src="rc-icon-black@4x.png" class="logos"></img>
+              <label for="reservec"></label>&nbsp;</Col>
+            <Col><input type="radio" name="marca" id="resvera"></input>&nbsp;<img src="Resvera-logo-degradado-vertical@4x.png" class="logores"></img>
+              <label for="resvera"></label>&nbsp;</Col>
+            <Col><input type="radio" name="marca" id="umaf"></input>&nbsp;<img src="Logo-UMAF-sin-fondo.png" class="logoumaf"></img>
+              <label for="umaf"></label>&nbsp;</Col>
+            <Col><input type="radio" name="marca" id="vvxp"></input>&nbsp;<img src="vvxp.png" class="logovvxp"></img>&nbsp;
+              <label for="vvxp"></label></Col>
           </Row>
           <br></br>
           <Row>
             <Col align="center">
-              <label>Sucursal:</label>
+              <label><b>Sucursal: </b></label>
               <br></br>
               <select>
                 <option selected="selected" value=""></option>
@@ -106,14 +106,14 @@ function Rcliente() {
           <br></br>
           <Row>
             <Col align="center">
-              <label>Asesor: </label>
+              <label><b>Asesor: </b></label>
               <br></br>
               <select>
-              <option selected="selected" value=""></option>
-              <option value="asesor1">Asesor 1</option>
-              <option value="asesor2">Asesor 2</option>
-              <option value="asesor3">Asesor 3</option>
-            </select></Col>
+                <option selected="selected" value=""></option>
+                <option value="asesor1">Asesor 1</option>
+                <option value="asesor2">Asesor 2</option>
+                <option value="asesor3">Asesor 3</option>
+              </select></Col>
           </Row>
           <br></br>
           <Row>
@@ -124,7 +124,7 @@ function Rcliente() {
               <input type="text" placeholder="Apellidos" required></input>
               <br></br>
               <br></br>
-              <label>Cumpleaños: </label>
+              <label><b>Cumpleaños: </b></label>
               <br></br>
               <input type="date" required></input>
               <br></br>
@@ -145,7 +145,7 @@ function Rcliente() {
               <button type="submit" name="registrar">Registrar</button><br></br>
             </Col>
             <Col xs lg="1">
-            <button type="submit" name="regyage">Registrar&nbsp;y&nbsp;Agendar</button>
+              <button type="submit" name="regyage">Registrar&nbsp;y&nbsp;Agendar</button>
             </Col>
           </Row>
           <br></br>

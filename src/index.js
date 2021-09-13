@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch} from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import $ from 'jquery';
 import Login from "./login.js";
 import Ccenter from "./ccenter.js";
@@ -21,28 +21,28 @@ import Altas from "./altas.js";
 import Bajas from "./bajas.js"
 
 
- const rootElement = document.getElementById("root");
- ReactDOM.render(
-   <BrowserRouter>
+const rootElement = document.getElementById("root");
+ReactDOM.render(
+  <BrowserRouter>
     <Switch>
-     <Route exact path="/" component={Login} />
-     <Route path="/ccenter" component={Ccenter} />
-     <Route path="/calendario" component={Calendario} />
-     <Route path="/rcliente" component={Rcliente} />
-     <Route path="/rventa" component={Rventa} />
-     <Route path="/consultarf" component={Consultarf} />
-     <Route path="/agendarc" component={Agendarc} />
-     <Route path="/consultarc" component={Consultarc} />
-     <Route path="/historial" component={Historial} />
-     <Route path="/contactc" component={Contactc} />
-     <Route path="/clientescc" component={Clientescc} />
-     <Route path="/pendientes" component={Pendientes} />
-     <Route path="/facialista" component={Facialista} />
-     <Route path="/citfac" component={Citfac} />
-     <Route path="/config" component={Config} />
-     <Route path="/altas" component={Altas} />
-     <Route path="/bajas" component={Bajas} />
-   </Switch>
-   </BrowserRouter>,
-   rootElement
- );
+      <Route exact path="/" component={Login} />
+      <Route path="/ccenter" component={Ccenter} />
+      <Route path="/calendario" component={Calendario} />
+      <Route path="/rcliente" component={Rcliente} />
+      <Route path="/rventa" component={Rventa} />
+      <Route path="/consultarf" component={Consultarf} />
+      <Route path="/agendarc" component={Agendarc} />
+      <Route path="/consultarc" component={Consultarc} />
+      <Route path="/historial" component={Historial} />
+      <Route path="/contactc" component={Contactc} />
+      <Route path="/clientescc" component={Clientescc} />
+      <Route path="/pendientes" component={Pendientes} />
+      <Route path="/facialista" component={Facialista} />
+      <Route path="/citfac" component={Citfac} />
+      <Route path="/config" component={Config} />
+      <Route path="/altas" component={Altas} />
+      <Route path="/bajas" component={Bajas} />
+    </Switch>
+  </BrowserRouter>,
+  rootElement
+);

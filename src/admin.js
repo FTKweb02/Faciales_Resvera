@@ -21,7 +21,7 @@ class Admin extends React.Component {
       <div>
       <Navbar className="color-nav" variant="light">
           <Link to="/">  
-          <input type="image" id="image" alt="Home" src="logomq2.png" width="80px"/>
+          <input type="image" id="image" alt="Home" src="Logo-FTK-new-blanco.png" width="150px"/>
           </Link>
           <Link to="/">
             <button className="buttonis"><b>Cerrar Sesion</b></button>
