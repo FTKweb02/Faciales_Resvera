@@ -31,6 +31,7 @@ class Ccenter extends React.Component {
         </div>
 
         <Container align="center">
+          
           <br></br>
           <h1>Menú</h1>
           <br></br>

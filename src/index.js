@@ -16,7 +16,9 @@ import Clientescc from "./clientescc.js";
 import Pendientes from "./pendientes.js";
 import Facialista from "./facialista.js";
 import Citfac from "./citfac.js";
-import Admin from "./admin.js";
+import Config from "./config.js";
+import Altas from "./altas.js";
+import Bajas from "./bajas.js"
 
 
  const rootElement = document.getElementById("root");
@@ -37,7 +39,9 @@ import Admin from "./admin.js";
      <Route path="/pendientes" component={Pendientes} />
      <Route path="/facialista" component={Facialista} />
      <Route path="/citfac" component={Citfac} />
-     <Route path="/admin" component={Admin} />
+     <Route path="/config" component={Config} />
+     <Route path="/altas" component={Altas} />
+     <Route path="/bajas" component={Bajas} />
    </Switch>
    </BrowserRouter>,
    rootElement

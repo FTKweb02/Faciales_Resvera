@@ -142,7 +142,7 @@ function Rcliente() {
           </Row>
           <Row className="justify-content-md-center">
             <Col xs lg="1">
-              <button type="submit" name="registrar">Registrar</button>
+              <button type="submit" name="registrar">Registrar</button><br></br>
             </Col>
             <Col xs lg="1">
             <button type="submit" name="regyage">Registrar&nbsp;y&nbsp;Agendar</button>
