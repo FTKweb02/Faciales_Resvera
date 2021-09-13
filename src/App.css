@@ -1,5 +1,5 @@
-.flex1 {
-  margin-top: 42.8;
+.flex1 { 
+  display: flex; 
 }
 
 .button { 

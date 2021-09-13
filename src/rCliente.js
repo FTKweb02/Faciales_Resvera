@@ -9,6 +9,8 @@ import {
   Button,
   Container,
   Navbar,
+  Row,
+  Col,
 
 } from "reactstrap";
 
@@ -60,236 +62,94 @@ function Rcliente() {
         </Navbar>
       </div>
       <br></br>
-      <div align="right" class="menubutton">
-        <button onClick={() => {
+      <Container>
+        <Row>
+          <Col></Col>
+          <Col sm={10} align="center"><h1>Registrar Cliente</h1></Col>
+          <Col><button class="menubutton" onClick={() => {
           history.goBack();
-        }} type="submit">Menu</button>
-      </div>
+        }} type="submit">Menu</button></Col>
+        </Row>
+      </Container>
       <br></br>
-      <form method="post" action="#">
-        <div>
-          <input type="radio" name="marca" id="vinevera"></input>&nbsp;<img src="logomq2.png" class="logos"></img>
-          <label for="vinevera">Vine Vera</label>
-
-          <div class="reveal-if-active" align="center">
-            <table class="require-if-active" data-require-pair="#vinevera">
-              <thead>
-                <tr>
-                  <div>
-                    <td align="center"><input name="sucursalvv" type="radio"></input>&nbsp;
-                      <label><b>Vine Vera 1</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalvv" type="radio"></input>&nbsp;
-                      <label><b>Vine Vera 2</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalvv" type="radio"></input>&nbsp;
-                      <label><b>Vine Vera 3</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                  </div>
-                  <br></br>
-                  <div>
-                    <td align="center"><input name="sucursalvv" type="radio"></input>&nbsp;
-                      <label><b>Vine Vera 4</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalvv" type="radio"></input>&nbsp;
-                      <label><b>Vine Vera 5</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalvv" type="radio"></input>&nbsp;
-                      <label><b>Vine Vera 6</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                  </div>
-                </tr>
-              </thead>
-            </table>
-            <br></br>
-          </div>
-        </div>
-
-        <div>
-          <input type="radio" name="marca" id="orogold"></input>&nbsp;<img src="logomq2.png" class="logos"></img>
-          <label for="orogold">Orogold</label>
-
-          <div  class="reveal-if-active" align="center">
-            <table class="require-if-active flex1" data-require-pair="#orogold">
-                <tr>
-                  <div>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Orogold 1</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Orogold 2</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Orogold 3</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                  </div>
-                  <br></br>
-                  <div>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Orogold 4</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Orogold 5</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Orogold 6</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                  </div>
-                </tr>
-            </table>
-            <br></br>
-          </div>
-        </div>
-
-        <div>
-          <input type="radio" name="marca" id="reservec"></input>&nbsp;<img src="logomq2.png" class="logos"></img>
-          <label for="reservec">Reserve Cut</label>
-
-          <div class="reveal-if-active" align="center">
-            <table class="require-if-active" data-require-pair="#reservec">
-              <thead>
-                <tr>
-                  <div>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Reserve Cut 1</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Reserve Cut 2</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Reserve Cut 3</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                  </div>
-                  <br></br>
-                  <div>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Reserve Cut 4</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Reserve Cut 5</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Reserve Cut 6</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                  </div>
-                </tr>
-              </thead>
-            </table>
-            <br></br>
-          </div>
-        </div>
-
-        <div>
-          <input type="radio" name="marca" id="resvera"></input>&nbsp;<img src="logomq2.png" class="logos"></img>
-          <label for="resvera">Resvera</label>
-
-          <div class="reveal-if-active" align="center">
-            <table class="require-if-active" data-require-pair="#resvera">
-              <thead>
-                <tr>
-                  <div>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Resvera 1</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Resvera 2</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Resvera 3</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                  </div>
-                  <br></br>
-                  <div>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Resvera 4</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Resvera 5</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Resvera 6</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                  </div>
-                </tr>
-              </thead>
-            </table>
-            <br></br>
-          </div>
-        </div>
-        <div>
-          <input type="radio" name="marca" id="umaf"></input>&nbsp;<img src="logomq2.png" class="logos"></img>
-          <label for="umaf">Umaf</label>
-
-          <div class="reveal-if-active" align="center">
-            <table class="require-if-active" data-require-pair="#umaf">
-              <thead>
-                <tr>
-                  <div>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Umaf 1</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Umaf 2</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Umaf 3</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                  </div>
-                  <br></br>
-                  <div>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Umaf 4</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Umaf 5</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Umaf 6</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                  </div>
-                </tr>
-              </thead>
-            </table>
-            <br></br>
-          </div>
-        </div>
-        <div>
-          <input type="radio" name="marca" id="vvxp"></input>&nbsp;<img src="logomq2.png" class="logos"></img>
-          <label for="vvxp">Vine Vera Experience</label>
-
-          <div class="reveal-if-active" align="center">
-            <table class="require-if-active" data-require-pair="#vvxp">
-              <thead>
-                <tr>
-                  <div>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Vine Vera Experience 1</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Vine Vera Experience 2</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Vine Vera Experience 3</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                  </div>
-                  <br></br>
-                  <div>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Vine Vera Experience 4</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Vine Vera Experience 5</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                    <td align="center"><input name="sucursalog" type="radio"></input>&nbsp;
-                      <label><b>Vine Vera Experience 6</b></label>
-                      <br></br><img src="logomq2.png"></img></td>
-                  </div>
-                </tr>
-              </thead>
-            </table>
-            <br></br>
-          </div>
-        </div>
+      <br></br>
+      <form method="post">
+        <Container fluid>
+          <Row>
+            <Col><input type="radio" name="marca" id="vinevera"></input>&nbsp;<img src="logomq2.png" class="logos"></img>
+              <label for="vinevera">Vine Vera</label>&nbsp;</Col>
+            <Col><input type="radio" name="marca" id="orogold"></input>&nbsp;<img src="logomq2.png" class="logos"></img>
+              <label for="orogold">Orogold</label>&nbsp;</Col>
+            <Col><input type="radio" name="marca" id="reservec"></input>&nbsp;<img src="logomq2.png" class="logos"></img>
+              <label for="reservec">Reserve Cut</label>&nbsp;</Col>
+            <Col><input type="radio" name="marca" id="resvera"></input>&nbsp;<img src="logomq2.png" class="logos"></img>
+              <label for="resvera">Resvera</label>&nbsp;</Col>
+            <Col><input type="radio" name="marca" id="umaf"></input>&nbsp;<img src="logomq2.png" class="logos"></img>
+              <label for="umaf">Umaf</label>&nbsp;</Col>
+            <Col><input type="radio" name="marca" id="vvxp"></input>&nbsp;<img src="logomq2.png" class="logos"></img>&nbsp;
+              <label for="vvxp">VV Experience</label></Col>
+          </Row>
+          <br></br>
+          <Row>
+            <Col align="center">
+              <label>Sucursal:</label>
+              <br></br>
+              <select>
+                <option selected="selected" value=""></option>
+                <option value="sucursal1">Sucursal 1</option>
+                <option value="sucursal2">Sucursal 2</option>
+                <option value="sucursal3">Sucursal 3</option>
+              </select>
+              <br></br>
+            </Col>
+          </Row>
+          <br></br>
+          <Row>
+            <Col align="center">
+              <label>Asesor: </label>
+              <br></br>
+              <select>
+              <option selected="selected" value=""></option>
+              <option value="asesor1">Asesor 1</option>
+              <option value="asesor2">Asesor 2</option>
+              <option value="asesor3">Asesor 3</option>
+            </select></Col>
+          </Row>
+          <br></br>
+          <Row>
+            <Col align="center">
+              <input type="text" placeholder="Nombre" required></input>
+              <br></br>
+              <br></br>
+              <input type="text" placeholder="Apellidos" required></input>
+              <br></br>
+              <br></br>
+              <label>Cumpleaños: </label>
+              <br></br>
+              <input type="date" required></input>
+              <br></br>
+              <br></br>
+              <input type="tel" placeholder="Teléfono 10 digitos" required-pattern="[0-9]{10}"></input>
+              <br></br>
+              <br></br>
+              <input type="email" placeholder="E-mail" required></input>
+              <br></br>
+              <br></br>
+              <input type="text" placeholder="ID Asesor" required></input>
+              <br></br>
+              <br></br>
+            </Col>
+          </Row>
+          <Row className="justify-content-md-center">
+            <Col xs lg="1">
+              <button type="submit" name="registrar">Registrar</button>
+            </Col>
+            <Col xs lg="1">
+            <button type="submit" name="regyage">Registrar&nbsp;y&nbsp;Agendar</button>
+            </Col>
+          </Row>
+          <br></br>
+        </Container>
       </form>
     </>
   );
