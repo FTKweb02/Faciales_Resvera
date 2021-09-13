@@ -36,20 +36,9 @@ import {
                     history.goBack();
                 }} type="submit">Menú</button>
                 </div>
-                <br></br>
-                <br></br>
-                <Container align="center">
-                  <h1>Calendario</h1>
-                  <br></br>
-                  <Calendar>
-                  onChange={onChange}
-                  value={value}
-                  </Calendar>
-                </Container>
-                
-                
-
-                
+                <div align="center">
+                  <a class="agpro" href="https://agendapro.com/mx/bookings" target="_blank">Calendario</a>
+                </div>
               </>
 
               

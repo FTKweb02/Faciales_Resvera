@@ -33,8 +33,8 @@ import {
                 }} type="submit">Menú</button>
                 </div>
                 <br></br>
-                <div align="center"> 
-                  <h1>Agenda Pro</h1>
+                <div align="center">
+                <a class="agpro" href="https://agendapro.com/mx/clients" target="_blank">Consultar</a>
                 </div>
               </>
             );
