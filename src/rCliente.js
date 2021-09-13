@@ -57,7 +57,7 @@ function Rcliente() {
             <input type="image" id="image" alt="Home" src="Logo-FTK-new-blanco.png" width="150px" />
           </Link>
           <Link to="/">
-            <button className="buttonis"><b>Cerrar Sesion</b></button>
+            <button className="buttonis">Cerrar Sesión</button>
           </Link>
         </Navbar>
       </div>

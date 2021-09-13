@@ -23,13 +23,13 @@ function Rventa() {
             <input type="image" id="image" alt="Home" src="Logo-FTK-new-blanco.png" width="150px" />
           </Link>
           <Link to="/">
-            <button className="buttonis"><b>Cerrar Sesion</b></button>
+            <button className="buttonis">Cerrar Sesión</button>
           </Link>
         </Navbar>
       </div>
       <br></br>
-      <div align="right" class="menubutton">
-        <button onClick={() => {
+      <div align="right">
+        <button  class="menubutton" onClick={() => {
           history.goBack();
         }} type="submit">Menu</button>
       </div>
@@ -137,7 +137,7 @@ function Rventa() {
         </table>
         <br></br>
         <div align="center">
-        <button type="submit" name="registrar">Registrar Venta</button>
+        <button class="buttong" type="submit" name="registrar">Registrar Venta</button>
         </div>
         <br></br>
         </form>

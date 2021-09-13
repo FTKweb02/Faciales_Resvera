@@ -22,7 +22,7 @@ import {
                         <input type="image" id="image" alt="Home" src="Logo-FTK-new-blanco.png" width="150px"/>
                     </Link>
                     <Link to="/">
-                        <button className="buttonis"><b>Cerrar Sesion</b></button>
+                        <button className="buttonis">Cerrar Sesión</button>
                     </Link>
                   </Navbar>  
                 </div> 
@@ -45,7 +45,7 @@ import {
                   <br></br>
                   <br></br>
                   <Link to="/citfac">
-                  <button type="submit">Seleccionar</button>
+                  <button class="buttong" type="submit">Seleccionar</button>
                   </Link>
                 </Container>
         

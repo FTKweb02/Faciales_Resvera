@@ -25,13 +25,13 @@ function Bajas() {
                         <input type="image" id="image" alt="Home" src="Logo-FTK-new-blanco.png" width="150px" />
                     </Link>
                     <Link to="/">
-                        <button className="buttonis"><b>Cerrar Sesion</b></button>
+                        <button className="buttonis">Cerrar Sesión</button>
                     </Link>
                 </Navbar>
             </div>
             <br></br>
-            <div align="right" class="menubutton">
-                <button onClick={() => {
+            <div align="right">
+                <button  class="menubutton" onClick={() => {
                     history.goBack();
                 }} type="submit">Menú</button>
             </div>
@@ -44,46 +44,46 @@ function Bajas() {
                 <br></br>
                 <Row>
                     <Col><Link to="/">
-                        <button><b>Sucrusal Baja</b></button>
+                        <button class="button"><b>Sucrusal Baja</b></button>
                     </Link></Col>
                     <Col><Link to="/">
-                        <button><b>Baja Asesores</b></button>
-                    </Link></Col>
-                </Row>
-                <br></br>
-                <Row>
-                    <Col><Link to="/">
-                        <button><b>Marca Baja</b></button>
-                    </Link></Col>
-                    <Col><Link to="/">
-                        <button><b>Baja Asesor Telefónico</b></button>
+                        <button class="button"><b>Baja Asesores</b></button>
                     </Link></Col>
                 </Row>
                 <br></br>
                 <Row>
                     <Col><Link to="/">
-                        <button><b>Cabina Baja</b></button>
+                        <button class="button"><b>Marca Baja</b></button>
                     </Link></Col>
                     <Col><Link to="/">
-                        <button><b>Baja Usuarios</b></button>
-                    </Link></Col>
-                </Row>
-                <br></br>
-                <Row>
-                    <Col><Link to="/">
-                        <button><b>Configurar Horario</b></button>
-                    </Link></Col>
-                    <Col><Link to="/">
-                        <button><b>Baja Facialistas</b></button>
+                        <button class="button"><b>Baja Asesor Telefónico</b></button>
                     </Link></Col>
                 </Row>
                 <br></br>
                 <Row>
                     <Col><Link to="/">
-                        <button><b>Baja Servicio/Tratamiento</b></button>
+                        <button class="button"><b>Cabina Baja</b></button>
                     </Link></Col>
                     <Col><Link to="/">
-                        <button><b>Baja Contraseñas</b></button>
+                        <button class="button"><b>Baja Usuarios</b></button>
+                    </Link></Col>
+                </Row>
+                <br></br>
+                <Row>
+                    <Col><Link to="/">
+                        <button class="button"><b>Configurar Horario</b></button>
+                    </Link></Col>
+                    <Col><Link to="/">
+                        <button class="button"><b>Baja Facialistas</b></button>
+                    </Link></Col>
+                </Row>
+                <br></br>
+                <Row>
+                    <Col><Link to="/">
+                        <button class="button"><b>Baja&nbsp;Servicio/Tratamiento</b></button>
+                    </Link></Col>
+                    <Col><Link to="/">
+                        <button class="button"><b>Baja Contraseñas</b></button>
                     </Link></Col>
                 </Row>
             </Container>

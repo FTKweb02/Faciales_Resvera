@@ -24,13 +24,13 @@ import {
                         <input type="image" id="image" alt="Home" src="Logo-FTK-new-blanco.png" width="150px"/>
                     </Link>
                     <Link to="/">
-                      <button className="buttonis"><b>Cerrar Sesion</b></button>
+                      <button className="buttonis">Cerrar Sesión</button>
                     </Link>
                   </Navbar>  
                 </div> 
                 <br></br>
-                <div align="right" class="menubutton">
-                <button onClick={() => {
+                <div align="right">
+                <button  class="menubutton" onClick={() => {
                     history.goBack();
                 }} type="submit">Menu</button>
                 </div>
@@ -40,7 +40,7 @@ import {
           <tbody>
             <tr>
               <td width="950px"><h2>Nombre Empleado</h2></td>
-              <td><Button color="success">Nuevo Registro</Button></td>
+              <td><button class="buttong">Nuevo Registro</button></td>
             </tr>
           </tbody>
         </table>

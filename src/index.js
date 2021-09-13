@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import $ from 'jquery';
 import Login from "./login.js";
 import Ccenter from "./ccenter.js";
 import Calendario from "./calendario.js";

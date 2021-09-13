@@ -1,5 +1,4 @@
 import React from "react";
-import Sidebar from "react-sidebar";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
@@ -25,7 +24,7 @@ class Ccenter extends React.Component {
               <input type="image" id="image" alt="Home" src="Logo-FTK-new-blanco.png" width="150px" />
             </Link>
             <Link to="/">
-              <button className="buttonis"><b>Cerrar Sesion</b></button>
+              <button className="buttonis">Cerrar Sesion</button>
             </Link>
           </Navbar>
         </div>

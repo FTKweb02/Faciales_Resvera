@@ -3,8 +3,10 @@
 }
 
 .button { 
-  width: 200px;
+  width: 210px;
   height: 40px;
+  background-color: #a03f56;
+  color: white; 
 }
 
 .texts { 
@@ -42,11 +44,19 @@
 
 .menubutton {
   margin-right: 20px;
+  background-color: #a03f56;
+  color: white;
 }
 
 .buttonis { 
   margin-right: 30px;
   background-color: #a03f56;
+  color: white;
+}
+
+.buttong {
+  background-color: #a03f56;
+  color: white;
 }
 
 .color-nav {
