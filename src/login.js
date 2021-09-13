@@ -38,7 +38,7 @@ import {
                     <br></br>
                     <br></br>
                     <Link to="/ccenter">
-                    <button class="buttong" type="submit"><b>Iniciar sesión</b></button>
+                    <button class="buttong" type="submit">Iniciar sesión</button>
                     </Link>
                   </div>
                 </Container>

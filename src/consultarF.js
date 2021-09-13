@@ -33,11 +33,11 @@ import {
                 <div align="right" >
                 <button class="menubutton" onClick={() => {
                     history.goBack();
-                }} type="submit">Menu</button>
+                }} type="submit">Menú</button>
                 </div>
                 <div align="center">
                   <h1>Datos de Cliente</h1>
-                  <input type="text" placeholder="Nombre"></input>
+                  <input type="text" placeholder="Folio Cliente"></input>
                   <br></br>
                   <br></br>
                   <select>
@@ -53,7 +53,7 @@ import {
                 </div>
                 <br></br>
                 <div align="center">
-                  <button class="buttoncons" type="submit"><b>Consultar</b></button>
+                  <button class="buttonis" type="submit">Consultar</button>
                 </div>
                 <br></br>
                 <div align="center">

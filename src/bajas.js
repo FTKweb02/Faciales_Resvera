@@ -44,46 +44,46 @@ function Bajas() {
                 <br></br>
                 <Row>
                     <Col><Link to="/">
-                        <button class="button"><b>Sucrusal Baja</b></button>
+                        <button class="button">Sucrusal Baja</button>
                     </Link></Col>
                     <Col><Link to="/">
-                        <button class="button"><b>Baja Asesores</b></button>
-                    </Link></Col>
-                </Row>
-                <br></br>
-                <Row>
-                    <Col><Link to="/">
-                        <button class="button"><b>Marca Baja</b></button>
-                    </Link></Col>
-                    <Col><Link to="/">
-                        <button class="button"><b>Baja Asesor Telefónico</b></button>
+                        <button class="button">Baja Asesores</button>
                     </Link></Col>
                 </Row>
                 <br></br>
                 <Row>
                     <Col><Link to="/">
-                        <button class="button"><b>Cabina Baja</b></button>
+                        <button class="button">Marca Baja</button>
                     </Link></Col>
                     <Col><Link to="/">
-                        <button class="button"><b>Baja Usuarios</b></button>
-                    </Link></Col>
-                </Row>
-                <br></br>
-                <Row>
-                    <Col><Link to="/">
-                        <button class="button"><b>Configurar Horario</b></button>
-                    </Link></Col>
-                    <Col><Link to="/">
-                        <button class="button"><b>Baja Facialistas</b></button>
+                        <button class="button">Baja Asesor Telefónico</button>
                     </Link></Col>
                 </Row>
                 <br></br>
                 <Row>
                     <Col><Link to="/">
-                        <button class="button"><b>Baja&nbsp;Servicio/Tratamiento</b></button>
+                        <button class="button">Cabina Baja</button>
                     </Link></Col>
                     <Col><Link to="/">
-                        <button class="button"><b>Baja Contraseñas</b></button>
+                        <button class="button">Baja Usuarios</button>
+                    </Link></Col>
+                </Row>
+                <br></br>
+                <Row>
+                    <Col><Link to="/">
+                        <button class="button">Configurar Horario</button>
+                    </Link></Col>
+                    <Col><Link to="/">
+                        <button class="button">Baja Facialistas</button>
+                    </Link></Col>
+                </Row>
+                <br></br>
+                <Row>
+                    <Col><Link to="/">
+                        <button class="button">Baja&nbsp;Servicio/Tratamiento</button>
+                    </Link></Col>
+                    <Col><Link to="/">
+                        <button class="button">Baja Contraseñas</button>
                     </Link></Col>
                 </Row>
             </Container>

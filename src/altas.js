@@ -44,46 +44,46 @@ function Altas() {
                 <br></br>
                 <Row>
                     <Col><Link to="/">
-                        <button class="button"><b>Sucrusal Alta</b></button>
+                        <button class="button">Sucrusal Alta</button>
                     </Link></Col>
                     <Col><Link to="/">
-                        <button class="button"><b>Alta Asesores</b></button>
-                    </Link></Col>
-                </Row>
-                <br></br>
-                <Row>
-                    <Col><Link to="/">
-                        <button class="button"><b>Marca Alta</b></button>
-                    </Link></Col>
-                    <Col><Link to="/">
-                        <button class="button"><b>Alta Asesor Telefónico</b></button>
+                        <button class="button">Alta Asesores</button>
                     </Link></Col>
                 </Row>
                 <br></br>
                 <Row>
                     <Col><Link to="/">
-                        <button class="button"><b>Cabina Alta</b></button>
+                        <button class="button">Marca Alta</button>
                     </Link></Col>
                     <Col><Link to="/">
-                        <button class="button"><b>Usuarios</b></button>
-                    </Link></Col>
-                </Row>
-                <br></br>
-                <Row>
-                    <Col><Link to="/">
-                        <button class="button"><b>Configurar Horario</b></button>
-                    </Link></Col>
-                    <Col><Link to="/">
-                        <button class="button"><b>Alta Facialistas</b></button>
+                        <button class="button">Alta Asesor Telefónico</button>
                     </Link></Col>
                 </Row>
                 <br></br>
                 <Row>
                     <Col><Link to="/">
-                        <button class="button"><b>Alta&nbsp;Servicio/Tratamiento</b></button>
+                        <button class="button">Cabina Alta</button>
                     </Link></Col>
                     <Col><Link to="/">
-                        <button class="button"><b>Contraseñas</b></button>
+                        <button class="button">Usuarios</button>
+                    </Link></Col>
+                </Row>
+                <br></br>
+                <Row>
+                    <Col><Link to="/">
+                        <button class="button">Configurar Horario</button>
+                    </Link></Col>
+                    <Col><Link to="/">
+                        <button class="button">Alta Facialistas</button>
+                    </Link></Col>
+                </Row>
+                <br></br>
+                <Row>
+                    <Col><Link to="/">
+                        <button class="button">Alta&nbsp;Servicio/Tratamiento</button>
+                    </Link></Col>
+                    <Col><Link to="/">
+                        <button class="button">Contraseñas</button>
                     </Link></Col>
                 </Row>
             </Container>

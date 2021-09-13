@@ -68,7 +68,7 @@ function Rcliente() {
           <Col sm={10} align="center"><h1>Registrar Cliente</h1></Col>
           <Col><button class="menubutton" onClick={() => {
             history.goBack();
-          }} type="submit">Menu</button></Col>
+          }} type="submit">Menú</button></Col>
         </Row>
       </Container>
       <br></br>
@@ -142,10 +142,10 @@ function Rcliente() {
           </Row>
           <Row className="justify-content-md-center">
             <Col xs lg="1">
-              <button type="submit" name="registrar">Registrar</button><br></br>
+              <button class="buttonis" type="submit" name="registrar">Registrar</button><br></br>
             </Col>
             <Col xs lg="1">
-              <button type="submit" name="regyage">Registrar&nbsp;y&nbsp;Agendar</button>
+              <button class="buttonis" type="submit" name="regyage">Registrar&nbsp;y&nbsp;Agendar</button>
             </Col>
           </Row>
           <br></br>

@@ -7,6 +7,8 @@ import {
   Button,
   Container,
   Navbar,
+  Row,
+  Col
  
 } from "reactstrap";
 
@@ -31,21 +33,27 @@ import {
                 <div align="right" >
                 <button class="menubutton" onClick={() => {
                     history.goBack();
-                }} type="submit">Menu</button>
+                }} type="submit">Menú</button>
                 </div>
-                <div align="center"> 
-                  <h2>Historial de ventas de: <b>'Vendedor'</b></h2>
-                </div>
-                <div>
-                  <h4 class="texts"># Servicios: <u>'Cantidad'.</u></h4>
+                <br></br>
+                <Container fluid>
+                  <Row>
+                    <Col><h2>Historial de ventas de: <b>'Vendedor'</b></h2></Col>
+                    <Col><h2>1er Lugar Servicios Vendidos: <b>'Vendedor'</b></h2></Col>
+                  </Row>
+                  <br></br>
+                  <Row>
+                    <Col><h4 class="texts"># Servicios: <u>'Cantidad'.</u></h4>
                   <br></br>
                   <h4 class="texts">Monto Servicios: <u>'$ Cantidad'.</u></h4>
                   <br></br>
                   <h4 class="texts">Venta total: <u>'$ Cantidad'.</u></h4>
                   <br></br>
                   <h4 class="texts">Mis citas totales (mes): <u>'Cantidad'.</u></h4>
-                  <br></br>
-                </div>
+                  <br></br></Col>
+                  <Col><h2>1er Lugar Monto Vendido: <b><u>'$100000.00'</u></b></h2></Col>
+                  </Row>
+                </Container>
               </>
             );
           }

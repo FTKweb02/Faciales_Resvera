@@ -32,7 +32,7 @@ import {
                 <div align="right">
                 <button  class="menubutton" onClick={() => {
                     history.goBack();
-                }} type="submit">Menu</button>
+                }} type="submit">Menú</button>
                 </div>
                 <Container class="bckgc">
         <br />
