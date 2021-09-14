@@ -3,7 +3,6 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'react-calendar/dist/Calendar.css';
 import { Link, useHistory } from "react-router-dom";
-import Calendar from 'react-calendar';
 import {
   Table,
   Button,
@@ -15,7 +14,6 @@ import {
     function Calendario() {
 
       const history = useHistory();
-      const [value, onChange] = useState(new Date());
   
             return (
         
@@ -40,7 +38,6 @@ import {
                   <a class="agpro" href="https://agendapro.com/mx/bookings" target="_blank">Calendario</a>
                 </div>
               </>
-
               
             );
           }

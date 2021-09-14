@@ -1,105 +1,4 @@
-.agpro{
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  box-sizing:border-box;
-  text-decoration:none;
-  display:inline-block;
-  margin-bottom:0;
-  font-weight:normal;
-  text-align:center;
-  white-space:nowrap;
-  vertical-align:middle;
-  -ms-touch-action:manipulation;
-  touch-action:manipulation;
-  cursor:pointer;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none;
-  background-image:none;
-  border-width:1px;
-  border-style:solid;
-  padding-top:10px;
-  padding-bottom:10px;
-  padding-right:16px;
-  padding-left:16px;
-  font-size:30px;
-  line-height:1.33;
-  border-radius:6px;
-  color:#ffffff;
-  background-color:#22c488;
-  border-color:#1ba970;
-}
-
-.frameap{
-  border-width:0px;
-}
-
-.flex1 { 
-  display: flex; 
-}
-
-.button { 
-  width: 210px;
-  height: 40px;
-  background-color: #a03f56;
-  color: white; 
-}
-
-.texts { 
-  margin-left: 20px;
-}
-
-.logos {
-  width: 50px;
-  height: 50px;
-}
-.logovv {
-  width:120px;
-  height: 50px;
-}
-
-.logoog {
-  width:100px;
-  height: 50px;
-}
-
-.logores {
-  width:100px;
-  height: 50px;
-}
-
-.logoumaf {
-  width:100px;
-  height: 50px;
-}
-
-.logovvxp {
-  width:100px;
-  height: 50px;
-}
-
-.menubutton {
-  margin-right: 20px;
-  background-color: #a03f56;
-  color: white;
-}
-
-.buttonis { 
-  margin-right: 30px;
-  background-color: #a03f56;
-  color: white;
-}
-
-.buttong {
-  background-color: #a03f56;
-  color: white;
-}
-
-.color-nav {
-  background-color: #5e1224;
-}
-
+/*App*/
 .App {
   text-align: center;
 }
@@ -139,3 +38,129 @@
   }
 }
 
+/* AgendaPro Button */
+.agpro{
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  text-decoration:none;
+  display:inline-block;
+  margin-bottom:0;
+  font-weight:normal;
+  text-align:center;
+  white-space:nowrap;
+  vertical-align:middle;
+  -ms-touch-action:manipulation;
+  touch-action:manipulation;
+  cursor:pointer;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  background-image:none;
+  border-width:1px;
+  border-style:solid;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:16px;
+  padding-left:16px;
+  font-size:30px;
+  line-height:1.33;
+  border-radius:6px;
+  color:#ffffff;
+  background-color:#a03f56;
+  border-color:#a03f56;
+}
+
+.frameap{
+  border-width:0px;
+}
+
+/*Buttons Styles*/
+.button { 
+  width: 210px;
+  height: 40px;
+  background-color: #a03f56;
+  color: white; 
+}
+
+.button:hover{
+  background-color:white; 
+  color: #a03f56;
+  transition: 0.5s;
+}
+
+.menubutton {
+  margin-right: 20px;
+  background-color: #a03f56;
+  color: white;
+}
+
+.menubutton:hover{
+  background-color:white; 
+  color: #a03f56;
+  transition: 0.5s;
+}
+
+.buttonis { 
+  margin-right: 30px;
+  background-color: #a03f56;
+  color: white;
+}
+
+.buttonis:hover{
+  background-color:white; 
+  color: #a03f56;
+  transition: 0.5s;
+}
+
+.buttong {
+  background-color: #a03f56;
+  color: white;
+}
+
+.buttong:hover{
+  background-color:white; 
+  color: #a03f56;
+  transition: 0.5s;
+}
+
+/*Texts*/
+.texts { 
+  margin-left: 20px;
+}
+
+/*Logos Styles*/
+.logos {
+  width: 50px;
+  height: 50px;
+}
+.logovv {
+  width:120px;
+  height: 50px;
+}
+
+.logoog {
+  width:100px;
+  height: 50px;
+}
+
+.logores {
+  width:100px;
+  height: 50px;
+}
+
+.logoumaf {
+  width:100px;
+  height: 50px;
+}
+
+.logovvxp {
+  width:100px;
+  height: 50px;
+}
+
+/*Navbar*/
+.color-nav {
+  background-color: #5e1224;
+}
