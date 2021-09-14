@@ -3,9 +3,6 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useHistory, Link } from  "react-router-dom"
 import {
-  Table,
-  Button,
-  Container,
   Navbar,
  
 } from "reactstrap";

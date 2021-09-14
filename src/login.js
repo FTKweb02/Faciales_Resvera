@@ -3,8 +3,6 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Link} from "react-router-dom";
 import {
-  Table,
-  Button,
   Container,
   Navbar,
  
@@ -29,7 +27,7 @@ import {
                   <br></br>
                   <br></br>
                   <div>
-                    <h1>Inicia Sesión</h1>
+                    <h1>Inicio de Sesión</h1>
                     <br></br>
                     <input type="text" placeholder="ID" type="id"></input>
                     <br></br>

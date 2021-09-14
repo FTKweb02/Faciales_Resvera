@@ -5,8 +5,6 @@ import { Link, useHistory } from "react-router-dom";
 import $ from "jquery";
 import './rCliente.css';
 import {
-  Table,
-  Button,
   Container,
   Navbar,
   Row,

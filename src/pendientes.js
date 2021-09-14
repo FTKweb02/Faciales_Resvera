@@ -2,10 +2,8 @@ import React from "react";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Link, useHistory } from "react-router-dom";
-import $ from "jquery";
 import {
   Table,
-  Button,
   Container,
   Navbar,
  
