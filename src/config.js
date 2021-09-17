@@ -4,7 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 import {
   Container,
-  Navbar
+  Navbar,
+  Row,
+  Col,
 
 } from "reactstrap";
 
@@ -28,21 +30,48 @@ class Config extends React.Component {
             </Link>
           </Navbar>
         </div>
-
+        <br></br>
         <Container align="center">
-          
           <br></br>
           <h1>Configuración</h1>
           <br></br>
-          <Link to="/altas">
-            <button class="button" type="submit">Altas</button>
-          </Link>
           <br></br>
+          <Row>
+            <Col><Link to="/">
+              <button class="button">Marca</button>
+            </Link></Col>
+            <Col><Link to="/">
+              <button class="button">Usuario</button>
+            </Link></Col>
+          </Row>
           <br></br>
-          <Link to="/bajas">
-            <button class="button" type="submit">Bajas</button>
-          </Link>
-          <br></br>          
+          <Row>
+            <Col><Link to="/">
+              <button class="button">Sucursal</button>
+            </Link></Col>
+            <Col><Link to="/">
+              <button class="button">Facialista</button>
+            </Link></Col>
+          </Row>
+          <br></br>
+          <Row>
+            <Col><Link to="/">
+              <button class="button">Servicio/Tratamiento</button>
+            </Link></Col>
+            <Col><Link to="/">
+              <button class="button">Asesor</button>
+            </Link></Col>
+          </Row>
+          <br></br>
+          <Row>
+            <Col><Link to="/">
+              <button class="button">Tecnología</button>
+            </Link></Col>
+            <Col><Link to="/">
+              <button class="button">Asesor Telefónico</button>
+            </Link></Col>
+          </Row>
+          <br></br>
         </Container>
 
       </>

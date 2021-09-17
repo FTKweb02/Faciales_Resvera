@@ -45,7 +45,7 @@ class Ccenter extends React.Component {
           <br></br>
           <br></br>
           <Link to="/rventa">
-            <button class="button" type="submit">Registrar Venta</button>
+            <button class="button" type="submit">Registrar Membresia</button>
           </Link>
           <br></br>
           <br></br>
@@ -69,7 +69,7 @@ class Ccenter extends React.Component {
           </Link>
 
         </Container>
-
+        <br></br>
       </>
     );
   }

@@ -8,6 +8,7 @@ import {
  
 } from "reactstrap";
 
+
     function Login() {
 
   
@@ -32,13 +33,14 @@ import {
                     <input type="text" placeholder="ID" type="id"></input>
                     <br></br>
                     <br></br>
-                    <input type="text" placeholder="Contraseña"></input>
+                    <input id="password-field" type="password" name="password" placeholder="Contraseña"></input>
                     <br></br>
                     <br></br>
                     <Link to="/ccenter">
                     <button class="buttong" type="submit">Iniciar sesión</button>
                     </Link>
                   </div>
+
                 </Container>
         
         

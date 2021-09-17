@@ -4,6 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import {Link, useHistory } from "react-router-dom";
 import {
   Navbar,
+  Container,
+  Row,
+  Col,
  
 } from "reactstrap";
 
@@ -32,22 +35,23 @@ import {
                     history.goBack();
                 }} type="submit">Menú</button>
                 </div>
-                <div align="center">
-                  <h1>Datos de Cliente</h1>
-                  <input type="text" placeholder="Folio Cliente"></input>
-                  <br></br>
-                  <br></br>
-                  <select>
-                    <option value="select" selected="selected">Selecciona una marca: </option>
-                    <option value="vinevera">Vine Vera</option>
-                    <option value="orogold">Orogold</option>
-                    <option value="reservecut">Reserve Cut</option>
-                    <option value="resvera">Resvera</option>
-                    <option value="umaf">Umaf</option>
-                    <option value="vinevxp">Vine Vera Experience</option>
-                  </select>
-                  <br></br>
-                </div>
+                <Container>
+                  <Row>
+                    <Col>
+                      <h1>Consultar Folio</h1>
+                      <br></br>
+                      <input type="text" placeholder="Folio: "></input>
+                    </Col>
+                    <Col>
+                      <h6>Nombre: </h6>
+                      <h6>Teléfono: </h6>
+                      <h6>Folio: </h6>
+                      <h6>Tratamientos Totales: </h6>
+                      <h6>Tratamientos Restantes: </h6>
+                      <h6>Acompañantes: </h6>
+                      <h6>Acompañantes Restantes: </h6>
+                    </Col>
+                  </Row>
                 <br></br>
                 <div align="center">
                   <button class="buttonis" type="submit">Consultar</button>
@@ -57,30 +61,25 @@ import {
                 <table width="100%" border="1px solid black">
                   <thead>
                     <tr>
-                     <th>Nombre</th>
-                     <th>Telefono</th>
-                     <th>Folio</th>
-                     <th>Acompañantes</th>
-                     <th># Faciales</th>
-                     <th>Faciales restantes</th>
+                     <th>Tratamiento</th>
+                     <th>Agendar</th>
                      <th>Asesor</th>
                      <th>Citas</th>
                    </tr>
                   </thead>
+                  <br></br>
                   <tbody>
                     <tr>
+                      <td>No se como se llame</td>
+                      <td><button type="submit" class="buttonis">Agendar</button></td>
                       <td></td>
-                      <td></td>
-                      <td></td>
-                     <td></td>
-                     <td></td>
-                     <td></td>
                      <td></td>
                      <td></td>
                    </tr>
                   </tbody>
                 </table>
                 </div>
+                </Container>
               </>
             );
           }

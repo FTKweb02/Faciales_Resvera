@@ -74,18 +74,19 @@ function Rcliente() {
       <form method="post">
         <Container fluid>
           <Row>
-            <Col><input type="radio" name="marca" id="vinevera"></input>&nbsp;<img src="VV_LOGO_Black.png" class="logovv"></img>
-              <label for="vinevera"></label>&nbsp;</Col>
-            <Col><input type="radio" name="marca" id="orogold"></input>&nbsp;<img src="orogold-dorado@4x.png" class="logoog"></img>
-              <label for="orogold"></label>&nbsp;</Col>
-            <Col><input type="radio" name="marca" id="reservec"></input>&nbsp;<img src="rc-icon-black@4x.png" class="logos"></img>
-              <label for="reservec"></label>&nbsp;</Col>
-            <Col><input type="radio" name="marca" id="resvera"></input>&nbsp;<img src="Resvera-logo-degradado-vertical@4x.png" class="logores"></img>
-              <label for="resvera"></label>&nbsp;</Col>
-            <Col><input type="radio" name="marca" id="umaf"></input>&nbsp;<img src="Logo-UMAF-sin-fondo.png" class="logoumaf"></img>
-              <label for="umaf"></label>&nbsp;</Col>
-            <Col><input type="radio" name="marca" id="vvxp"></input>&nbsp;<img src="vvxp.png" class="logovvxp"></img>&nbsp;
-              <label for="vvxp"></label></Col>
+            <Col align="center">
+              <label><b>Marca: </b></label>
+              <br></br>
+              <select>
+                <option selected="selected" value=""></option>
+                <option value="sucursal1">VV</option>
+                <option value="sucursal2">OG</option>
+                <option value="sucursal3">RC</option>
+                <option value="sucursal3">Resvera</option>
+                <option value="sucursal3">UMAF</option>
+                <option value="sucursal3">VVEXP</option>
+              </select>
+            </Col>
           </Row>
           <br></br>
           <Row>
@@ -133,17 +134,17 @@ function Rcliente() {
               <input type="email" placeholder="E-mail" required></input>
               <br></br>
               <br></br>
-              <input type="text" placeholder="ID Asesor" required></input>
+              <input type="text" placeholder="# Ticket Nova" required></input>
               <br></br>
               <br></br>
             </Col>
           </Row>
           <Row className="justify-content-md-center">
             <Col xs lg="1">
-              <button class="buttonis" type="submit" name="registrar">Registrar</button><br></br>
+              <button class="buttonis" type="submit" name="guardar">Guardar</button><br></br>
             </Col>
             <Col xs lg="1">
-              <button class="buttonis" type="submit" name="regyage">Registrar&nbsp;y&nbsp;Agendar</button>
+              <button class="buttonis" type="submit" name="regyage">Guardar&nbsp;y&nbsp;Agendar</button>
             </Col>
           </Row>
           <br></br>
