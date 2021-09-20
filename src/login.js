@@ -30,7 +30,7 @@ import {
                   <div>
                     <h1>Inicio de Sesión</h1>
                     <br></br>
-                    <input type="text" placeholder="ID" type="id"></input>
+                    <input type="text" placeholder="ID" name="id"></input>
                     <br></br>
                     <br></br>
                     <input id="password-field" type="password" name="password" placeholder="Contraseña"></input>

@@ -40,6 +40,8 @@ class Config extends React.Component {
             <Col><Link to="/">
               <button class="button">Marca</button>
             </Link></Col>
+            <br></br>
+            <br></br>
             <Col><Link to="/">
               <button class="button">Usuario</button>
             </Link></Col>
@@ -49,6 +51,8 @@ class Config extends React.Component {
             <Col><Link to="/">
               <button class="button">Sucursal</button>
             </Link></Col>
+            <br></br>
+            <br></br>
             <Col><Link to="/">
               <button class="button">Facialista</button>
             </Link></Col>
@@ -58,6 +62,8 @@ class Config extends React.Component {
             <Col><Link to="/">
               <button class="button">Servicio/Tratamiento</button>
             </Link></Col>
+            <br></br>
+            <br></br>
             <Col><Link to="/">
               <button class="button">Asesor</button>
             </Link></Col>
@@ -67,6 +73,8 @@ class Config extends React.Component {
             <Col><Link to="/">
               <button class="button">Tecnología</button>
             </Link></Col>
+            <br></br>
+            <br></br>
             <Col><Link to="/">
               <button class="button">Asesor Telefónico</button>
             </Link></Col>

@@ -40,7 +40,7 @@ import {
                     <Col>
                       <h1>Consultar Folio</h1>
                       <br></br>
-                      <input type="text" placeholder="Folio: "></input>
+                      <input type="search" placeholder="Folio: "></input>
                     </Col>
                     <Col>
                       <h6>Nombre: </h6>
@@ -58,7 +58,7 @@ import {
                 </div>
                 <br></br>
                 <div align="center">
-                <table width="100%" border="1px solid black">
+                <table width="100%" class="magia">
                   <thead>
                     <tr>
                      <th>Tratamiento</th>
@@ -67,13 +67,11 @@ import {
                      <th>Citas</th>
                    </tr>
                   </thead>
-                  <br></br>
                   <tbody>
                     <tr>
                       <td>No se como se llame</td>
                       <td><button type="submit" class="buttonis">Agendar</button></td>
                       <td></td>
-                     <td></td>
                      <td></td>
                    </tr>
                   </tbody>

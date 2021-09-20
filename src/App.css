@@ -164,3 +164,24 @@
 .color-nav {
   background-color: #5e1224;
 }
+
+/*Table Borders*/
+.table_border {
+  border: 1px solid black;
+  width: 50vw;
+  padding: 10px;
+}
+
+.magia td {
+  border: 1px solid black;
+  width: 50vw;
+  padding: 10px;
+}
+
+.magia th {
+  border: 1px solid black;
+  width: 50vw;
+  padding: 10px;
+}
+
+

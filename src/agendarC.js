@@ -4,6 +4,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Link, useHistory } from "react-router-dom";
 import {
   Navbar,
+  Form,
+  Row,
+  Col,
+  Container
 
 } from "reactstrap";
 
@@ -31,9 +35,109 @@ function Agendarc() {
         }} type="submit">Menú</button>
       </div>
       <br></br>
-      <div align="center">
-        <iframe src="https://agendapro.com/iframe/overview/dFhydEVSUEtqcDYxK2Y2aTFIVXlFZz09LS1JcnFkVWlFbFBudlVpUml4Mi9pWllnPT0=--551e7dc01b0129de908ed04d800772b734b82ddc" height="500" width="100%" marginwidth="0" marginheight="0" frameborder="no" scrolling="yes" class="frameap"></iframe>
-      </div>
+      <h1 align="center">Agendar</h1>
+      <br></br>
+      <Form action="post">
+        <Container align="center" fluid>
+          <Row>
+            <Col>
+              <input type="text" placeholder="Nombre" required></input>
+            </Col>
+          </Row>
+          <br></br>
+          <Row>
+            <Col>
+              <input type="text" placeholder="Apellido" required></input>
+            </Col>
+          </Row>
+          <br></br>
+          <Row>
+            <Col>
+              <label for="tec">Tecnologías</label><br></br>
+              <input type="radio" name="tratamiento" value="tec"></input>
+            </Col>
+            <Col>
+              <label for="faciales">Faciales</label><br></br>
+              <input type="radio" name="tratamiento" value="faciales"></input>
+            </Col>
+            <Col>
+              <label for="mesvirt">Mesoterapia</label><br></br>
+              <input type="radio" name="tratamiento" value="meso"></input>
+            </Col>
+            <Col>
+              <label for="ME">Medicina Estética</label><br></br>
+              <input type="radio" disabled value name="tratamiento" value="ME"></input>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <select>
+                <option disabled value selected="selected" value="true">Tecnologías</option>
+                <option value="">Reskin</option>
+                <option value="">Reskin (Avanzado)</option>
+                <option value="">Skin Glow</option>
+                <option value=" ">Skin Glow (Avanzado)</option>
+                <option value=" ">Diamond Lifting</option>
+                <option value=" ">Diamond Lifting (Avanzado)</option>
+                <option value=" ">Skin Renew</option>
+                <option value=" ">Skin Renew (avanzado9</option>
+                <option value=" ">Luxe Resurfacing</option>
+                <option value=" ">A New Beginning</option>
+              </select>
+            </Col>
+            <Col>
+              <select>
+                <option disabled value selected="selected" value="true">Faciales</option>
+                <option value="">Facial Hydratance</option>
+                <option value="">Facial Hydratance (Avanzado)</option>
+                <option value="">Facial Lifting</option>
+                <option value="">Facial Petal Peel</option>
+                <option value=" ">Facial Aqua Lift</option>
+                <option value=" ">Deep Cleanse</option>
+                <option value=" ">Facial Magnetic Detox</option>
+                <option value=" ">Nefertiti Experience</option>
+              </select>
+            </Col>
+            <Col>
+              <select>
+                <option disabled value selected="selected" value="true">Mesoterapia</option>
+                <option value="">D pigment</option>
+                <option value="">Radiance Skin</option>
+                <option value="">Skin Light</option>
+                <option value="">Vitality Facial</option>
+              </select>
+            </Col>
+            <Col>
+              <select>
+                <option disabled value selected="selected" value="true">Médicina Estética</option>
+              </select>
+            </Col>
+          </Row>
+          <br></br>
+          <label for="date">Horario:</label><br></br>
+          <input type="datetime-local" value="date" id="start"></input><br></br>
+          <br></br>
+          <input type="tel" placeholder="Teléfono" required-pattern="[0-9]{10}"></input>
+          <br></br>
+          <br></br>
+          <input type="email" placeholder="E-Mail" required></input>
+          <br></br>
+          <br></br>
+          <textarea class="formutexto" type="text" placeholder="Comentarios" name="texto" required rows="5" cols="30"></textarea>
+          <br></br>
+          <br></br>
+          <label>Pagado:</label><br></br>
+          <label for="si">Si</label>&nbsp;
+          <input type="radio" name="pagado" id="si"></input>&nbsp;&nbsp;
+          <label for="no">No</label>&nbsp;
+          <input type="radio" name="pagado" id="no"></input>&nbsp;
+          <br></br>
+          <br></br>
+          <button type="submit" value="agendar" class="buttonis">Agendar</button>
+          <br></br>
+          <br></br>
+        </Container>
+      </Form>
     </>
   );
 }
