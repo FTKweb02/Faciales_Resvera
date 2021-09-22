@@ -9,7 +9,7 @@ import {
  
 } from "reactstrap";
 
-    function Clientescc() {
+    function Citafac() {
 
       const history = useHistory();
       
@@ -47,17 +47,12 @@ import {
             <thead>
               <tr class="table_border">
                 <th>ID</th>
-                <th>Fecha Cita</th>
-                <th>Tienda</th>
-                <th>Sucursal</th>
                 <th>Cliente</th>
                 <th>Teléfono</th>
                 <th>Tratamiento</th>
                 <th>Cabina</th>
                 <th>Estatus</th>
-                <th>Asesor</th>
                 <th>Fecha&nbsp;Creación</th>
-                <th>Atiende</th>
                 <th>Notas</th>
               </tr>
             </thead>
@@ -65,9 +60,6 @@ import {
             <tbody class="table_border">
                 <tr>
                   <td>1</td>
-                  <td></td>
-                  <td></td>
-                  <td></td> 
                   <td></td>  
                   <td></td> 
                   <td></td> 
@@ -75,20 +67,13 @@ import {
                   <td>
                     <select>
                       <option disabled value selected="selected" value=""></option>
-                      <option value="pend">Pendiente</option>
-                      <option value="confirm">Confirmado</option>
-                      <option value="cancel">Cancelado</option>
-                      <option value="reag">Reagendado</option>
-                      <option value="noasist">No Asistio</option>
-                      <option value="noconfirm">No Confirmo</option>
-                      <option value="asistsc">Asistio s/compra</option>
-                      <option value="asistcc">Asistio c/compra</option>
+                      <option value="asistiosv">Asistio s/Venta</option>
+                      <option value="asistiocv">Asistio c/Venta</option>
+                      <option value="noasistio">No Asistio</option>
                     </select>
                   </td> 
                   <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td><textarea type="input"></textarea></td>
                 </tr>
             </tbody>
           </Table>
@@ -98,4 +83,4 @@ import {
             );
           }
         
-    export default Clientescc;
+    export default Citafac;

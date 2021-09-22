@@ -69,7 +69,7 @@ import {
                   </thead>
                   <tbody>
                     <tr>
-                      <td>No se como se llame</td>
+                      <td>Nombre Tratamiento</td>
                       <td><button type="submit" class="buttonis">Agendar</button></td>
                       <td></td>
                      <td></td>

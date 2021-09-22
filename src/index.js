@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Login from "./login.js";
@@ -16,10 +16,14 @@ import Pendientes from "./pendientes.js";
 import Facialista from "./facialista.js";
 import Citfac from "./citfac.js";
 import Config from "./config.js";
+import Citafac from "./citafac.js";
 
 
 const rootElement = document.getElementById("root");
+
+
 ReactDOM.render(
+  
   <BrowserRouter>
     <Switch>
       <Route exact path="/" component={Login} />
@@ -37,7 +41,12 @@ ReactDOM.render(
       <Route path="/facialista" component={Facialista} />
       <Route path="/citfac" component={Citfac} />
       <Route path="/config" component={Config} />
+      <Route path="/citafac" component={Citafac} />
     </Switch>
   </BrowserRouter>,
   rootElement
 );
+
+
+
+  

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Link} from "react-router-dom";
@@ -11,7 +11,6 @@ import {
 
     function Login() {
 
-  
             return (
         
               <>
@@ -29,6 +28,7 @@ import {
                   <br></br>
                   <div>
                     <h1>Inicio de Sesión</h1>
+                    <form>
                     <br></br>
                     <input type="text" placeholder="ID" name="id"></input>
                     <br></br>
@@ -39,6 +39,7 @@ import {
                     <Link to="/ccenter">
                     <button class="buttong" type="submit">Iniciar sesión</button>
                     </Link>
+                    </form>
                   </div>
 
                 </Container>

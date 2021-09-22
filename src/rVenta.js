@@ -75,7 +75,7 @@ function Rventa() {
                   <input type="date" id="fechacompra"></input></td>
               </tr>
               <br></br>
-              <Container class="table_border">
+              <Container>
               <Row>
                 <Col>
                   <label for="cat">Categoría</label><br></br><input type="text" id="cat"></input>
