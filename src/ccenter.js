@@ -4,7 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 import {
   Container,
-  Navbar
+  Navbar,
+  Row,
+  Col
 
 } from "reactstrap";
 
@@ -29,44 +31,72 @@ class Ccenter extends React.Component {
           </Navbar>
         </div>
 
+        <br></br>
+          <h1 align="center">Menú</h1>
+          <br></br>
+          <br></br>
+
         <Container align="center">
 
-          <br></br>
-          <h1>Menú</h1>
-          <br></br>
+          <Row>
+            <Col>
           <Link to="/calendario">
             <button class="button" type="submit">Calendario</button>
           </Link>
           <br></br>
+          </Col>
           <br></br>
+          <br></br>
+          <Col>
           <Link to="/rcliente">
             <button class="button" type="submit">Registrar Cliente</button>
           </Link>
           <br></br>
+          </Col>
+          </Row>
           <br></br>
+          <Row>
+            <Col>
           <Link to="/rventa">
             <button class="button" type="submit">Registrar Membresia</button>
           </Link>
           <br></br>
+          </Col>
           <br></br>
+          <br></br>
+          <Col>
           <Link to="/consultarf">
             <button class="button" type="submit">Consultar Folio</button>
           </Link>
           <br></br>
+          </Col>
+          </Row>
           <br></br>
+          <Row>
+            <Col>
           <Link to="/agendarc">
             <button class="button" type="submit">Agendar Cita</button>
           </Link>
           <br></br>
+          </Col>
           <br></br>
+          <br></br>
+          <Col>
           <Link to="/consultarc">
             <button class="button" type="submit">Consultar Cita</button>
           </Link>
           <br></br>
+          </Col>
+          </Row>
           <br></br>
+          <Row>
+            <Col>
           <Link to="/historial">
             <button class="button" type="submit">Mi historial</button>
           </Link>
+          </Col>
+          <Col><button class="buttonh" type="submit" disabled value></button></Col>
+          </Row>
 
         </Container>
         <br></br>

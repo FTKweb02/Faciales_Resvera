@@ -90,6 +90,12 @@
   transition: 0.5s;
 }
 
+.buttonh { 
+  width: 210px;
+  height: 40px;
+  display: none;
+}
+
 .menubutton {
   margin-right: 20px;
   background-color: #a03f56;
