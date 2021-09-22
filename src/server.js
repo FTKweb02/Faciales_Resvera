@@ -1,22 +1,27 @@
-const express = require('express');
-const path = require('path');
-const app = express();
-
-const PORT = process.env.PORT || 5000;
-
-app
-  .use(express.static(path.join(__dirname, '/client/build')))
-  .listen(PORT, () => console.log(`Listening on ${PORT}`));
-
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '/client/build/index.html'));
-});
-
-const basicAuth = require('express-basic-auth');
-
 const auth = basicAuth({
   users: {
     admin: '123',
     user: '456',
   },
 });
+
+// End-point on Server
+
+app.get('/authenticate', auth, (req, res) => {
+    if (req.auth.user === 'admin') {
+      res.send('admin');
+    } else if (req.auth.user === 'user') {
+      res.send('user');
+    }
+  });
+  
+  // Request on Client
+  
+  const auth = async () => {
+    try {
+      const res = await axios.get('/authenticate', { auth: { username: 'admin', password: '123' } });
+      console.log(res.data);
+    } catch (e) {
+      console.log(e);
+    }
+  };
