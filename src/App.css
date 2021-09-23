@@ -93,7 +93,7 @@
 .buttonh { 
   width: 210px;
   height: 40px;
-  display: none;
+  border: 1px solid white;
 }
 
 .menubutton {
