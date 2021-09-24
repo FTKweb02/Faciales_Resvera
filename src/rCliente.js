@@ -82,7 +82,7 @@ function Rcliente() {
                 <option value="sucursal1">VV</option>
                 <option value="sucursal2">OG</option>
                 <option value="sucursal3">RC</option>
-                <option value="sucursal3">Resvera</option>
+                <option value="sucursal3">RS</option>
                 <option value="sucursal3">UMAF</option>
                 <option value="sucursal3">VVEXP</option>
               </select>

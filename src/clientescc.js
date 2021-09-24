@@ -70,7 +70,11 @@ import {
                   <td></td> 
                   <td></td>  
                   <td></td> 
-                  <td></td> 
+                  <td>
+                    <select>
+                      <option disabled value selected="selected" value="">Tratamiento</option>
+                    </select>
+                  </td> 
                   <td></td> 
                   <td>
                     <select>
@@ -87,7 +91,11 @@ import {
                   </td> 
                   <td></td>
                   <td></td>
-                  <td></td>
+                  <td>
+                  <select>
+                      <option disabled value selected="selected" value="">Atiende</option>
+                    </select>
+                  </td>
                   <td></td>
                 </tr>
             </tbody>
