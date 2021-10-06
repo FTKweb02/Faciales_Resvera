@@ -66,12 +66,20 @@ import {
                   <td><input type="date"></input></td>
                   <td>Vine&nbsp;Vera&nbsp;1</td>
                   <td>Vendedor&nbsp;1</td> 
-                  <td>Cliente&nbsp;1</td>  
+                  <td>
+                    <div class="tooltip">Cliente&nbsp;1
+                    <span class="tooltiptext">Datos Cliente<br></br>Nombre<br></br>Tratamiento<br></br>Total&nbsp;Sesiones</span>
+                    </div></td>  
                   <td align="center">Nombre&nbsp;Empleado</td> 
                   <td><select id="estatus">
+                      <option value="pendiente">Pendiente</option>
                       <option value="confirmado">Confirmado</option>
                       <option value="cancelado">Cancelado</option>
                       <option value="reagendado">Reagendado</option>
+                      <option value="noasistio">No Asistio</option>
+                      <option value="nocontesto">No contesto</option>
+                      <option value="asistiocc">Asistio c/Compra</option>
+                      <option value="asistiosc">Asistio s/Compra</option>
                     </select></td> 
                   <td>09/09/2021</td> 
                   <td><input type="textarea"></input></td> 
