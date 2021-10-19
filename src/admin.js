@@ -34,37 +34,37 @@ class Admin extends React.Component {
             <h1>Menú Configuración</h1>
             <br></br>
             <Link to="/calendario">
-            <button class="button" type="submit">Calendario</button>
+            <button className="button" type="submit">Calendario</button>
             </Link>
             <br></br>
             <br></br>
             <Link to="/rcliente">
-            <button class="button" type="submit">Registrar Cliente</button>
+            <button className="button" type="submit">Registrar Cliente</button>
             </Link>
             <br></br>
             <br></br>
             <Link to="/rventa">
-            <button class="button" type="submit">Registrar Venta</button>
+            <button className="button" type="submit">Registrar Venta</button>
             </Link>
             <br></br>
             <br></br>
             <Link to="/consultarf">
-            <button class="button" type="submit">Consultar Folio</button>
+            <button className="button" type="submit">Consultar Folio</button>
             </Link>
             <br></br>
             <br></br>
             <Link to="/agendarc">
-            <button class="button" type="submit">Agendar Cita</button>
+            <button className="button" type="submit">Agendar Cita</button>
             </Link>
             <br></br>
             <br></br>
             <Link to="/consultarc">
-            <button class="button" type="submit">Consultar Cita</button>
+            <button className="button" type="submit">Consultar Cita</button>
             </Link>
             <br></br>
             <br></br>
             <Link to="/historial">
-            <button class="button" type="submit">Mi historial</button>
+            <button className="button" type="submit">Mi historial</button>
             </Link>
         </Container>
 

@@ -37,7 +37,7 @@ function Calendario() {
       </div>
       <br></br>
       <div align="right">
-        <button class="menubutton" onClick={() => {
+        <button className="menubutton" onClick={() => {
           history.goBack();
         }} type="submit">Menú</button>
       </div>

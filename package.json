@@ -9,6 +9,7 @@
     "bootstrap": "^5.1.1",
     "concurrently": "^6.2.2",
     "dotenv": "^10.0.0",
+    "express-session": "^1.17.2",
     "fetch": "^1.1.0",
     "jquery": "^3.6.0",
     "mysql": "^2.18.1",

@@ -2,26 +2,37 @@ const express = require('express');
 const mysql = require('mysql');
 
 const app = express();
-const port = 8000;
-const table ='users';
+const port = 8081;
+const table ='usuarios';
 
-const pool = mysql.createPool({
-  host: process.env.MYSQL_HOST,
-  user: process.env.MYSQL_USER,
-  password: process.env.MYSQL_PWD,
-  database: process.env.MYSQL_DB,
+var connection  = mysql.createConnection({
+  host: 'localhost',
+  database: "faciales_db",
+  user: "Admin_02", 
+  password: "L5u9aA-@m/C3DgsK"
 });
+
+connection.connect();
+
+connection.query(`select * from ${table}`, function(err, rows, fields){
+  if (err) throw err;
+  console.log('The solution is: ', rows.fields);
+});
+
+connection.end()
 
 app.listen(port, () => {
   console.log(`App server now listening to port ${port}`);
 });
 
-app.get('/api/users', (req, res) => {
+app.get('/api/users/', (req, res) => {
   pool.query(`select * from ${table}`, (err, rows) => {
     if (err) {
       res.send(err);
     } else {
       res.send(rows);
     }
+    res.end();
   });
 });
+

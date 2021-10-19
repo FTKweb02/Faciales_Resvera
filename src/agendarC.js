@@ -30,7 +30,7 @@ function Agendarc() {
       </div>
       <br></br>
       <div align="right">
-        <button class="menubutton" onClick={() => {
+        <button className="menubutton" onClick={() => {
           history.goBack();
         }} type="submit">Menú</button>
       </div>
@@ -66,13 +66,13 @@ function Agendarc() {
             </Col>
             <Col>
               <label for="ME">Medicina Estética</label><br></br>
-              <input type="radio" disabled value name="tratamiento" value="ME"></input>
+              <input type="radio" disabled name="tratamiento" value="ME"></input>
             </Col>
           </Row>
           <Row>
             <Col>
               <select>
-                <option disabled value selected="selected" value="true">Tecnologías</option>
+                <option disabled selected >Tecnologías</option>
                 <option value="">Reskin</option>
                 <option value="">Reskin (Avanzado)</option>
                 <option value="">Skin Glow</option>
@@ -87,7 +87,7 @@ function Agendarc() {
             </Col>
             <Col>
               <select>
-                <option disabled value selected="selected" value="true">Faciales</option>
+                <option disabled selected="selected">Faciales</option>
                 <option value="">Facial Hydratance</option>
                 <option value="">Facial Hydratance (Avanzado)</option>
                 <option value="">Facial Lifting</option>
@@ -100,7 +100,7 @@ function Agendarc() {
             </Col>
             <Col>
               <select>
-                <option disabled value selected="selected" value="true">Mesoterapia</option>
+                <option disabled selected="selected" >Mesoterapia</option>
                 <option value="">D pigment</option>
                 <option value="">Radiance Skin</option>
                 <option value="">Skin Light</option>
@@ -109,7 +109,7 @@ function Agendarc() {
             </Col>
             <Col>
               <select>
-                <option disabled value selected="selected" value="true">Médicina Estética</option>
+                <option disabled selected="selected" >Médicina Estética</option>
               </select>
             </Col>
           </Row>
@@ -123,7 +123,7 @@ function Agendarc() {
           <input type="email" placeholder="E-Mail" required></input>
           <br></br>
           <br></br>
-          <textarea class="formutexto" type="text" placeholder="Comentarios" name="texto" required rows="5" cols="30"></textarea>
+          <textarea className="formutexto" type="text" placeholder="Comentarios" name="texto" required rows="5" cols="30"></textarea>
           <br></br>
           <br></br>
           <label>Pagado:</label><br></br>
@@ -133,7 +133,7 @@ function Agendarc() {
           <input type="radio" name="pagado" id="no"></input>&nbsp;
           <br></br>
           <br></br>
-          <button type="submit" value="agendar" class="buttonis">Agendar</button>
+          <button type="submit" value="agendar" className="buttonis">Agendar</button>
           <br></br>
           <br></br>
         </Container>

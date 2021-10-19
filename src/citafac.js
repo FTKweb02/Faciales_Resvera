@@ -28,24 +28,24 @@ import {
                 </div> 
                 <br></br>
                 <div align="right">
-                <button  class="menubutton" onClick={() => {
+                <button  className="menubutton" onClick={() => {
                     history.goBack();
                 }} type="submit">Menú</button>
                 </div>
-                <Container class="bckgc" fluid>
+                <Container className="bckgc" fluid>
         <br />
         <table>
           <tbody>
             <tr>
               <td width="950px"><h2>Nombre Empleado</h2></td>
-              <td><button class="buttong">Nuevo Registro</button></td>
+              <td><button className="buttong">Nuevo Registro</button></td>
             </tr>
           </tbody>
         </table>
           <br />
           <Table>
             <thead>
-              <tr class="table_border">
+              <tr className="table_border">
                 <th>ID</th>
                 <th>Cliente</th>
                 <th>Teléfono</th>
@@ -57,7 +57,7 @@ import {
               </tr>
             </thead>
 
-            <tbody class="table_border">
+            <tbody className="table_border">
                 <tr>
                   <td>1</td>
                   <td></td>  
@@ -66,7 +66,7 @@ import {
                   <td></td> 
                   <td>
                     <select>
-                      <option disabled value selected="selected" value=""></option>
+                      <option disabled selected="selected" value=""></option>
                       <option value="asistiosv">Asistio s/Venta</option>
                       <option value="asistiocv">Asistio c/Venta</option>
                       <option value="noasistio">No Asistio</option>

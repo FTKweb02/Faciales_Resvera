@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
@@ -37,7 +36,7 @@ function Login() {
             <br></br>
             <br></br>
             <Link to="/ccenter">
-              <button class="buttong" type="submit" name="is">Iniciar sesión</button>
+              <button className="buttong" type="submit" name="is">Iniciar sesión</button>
             </Link>
           </form>
         </div>

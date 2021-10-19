@@ -28,24 +28,24 @@ import {
                 </div> 
                 <br></br>
                 <div align="right">
-                <button  class="menubutton" onClick={() => {
+                <button  className="menubutton" onClick={() => {
                     history.goBack();
                 }} type="submit">Menú</button>
                 </div>
-                <Container class="bckgc" fluid>
+                <Container className="bckgc" fluid>
         <br />
         <table>
           <tbody>
             <tr>
               <td width="950px"><h2>Nombre Empleado</h2></td>
-              <td><button class="buttong">Nuevo Registro</button></td>
+              <td><button className="buttong">Nuevo Registro</button></td>
             </tr>
           </tbody>
         </table>
           <br />
           <Table>
             <thead>
-              <tr class="table_border">
+              <tr className="table_border">
                 <th>ID</th>
                 <th>Fecha Cita</th>
                 <th>Tienda</th>
@@ -62,7 +62,7 @@ import {
               </tr>
             </thead>
 
-            <tbody class="table_border">
+            <tbody className="table_border">
                 <tr>
                   <td>1</td>
                   <td></td>
@@ -72,13 +72,13 @@ import {
                   <td></td> 
                   <td>
                     <select>
-                      <option disabled value selected="selected" value="">Tratamiento</option>
+                      <option disabled selected="selected" value="">Tratamiento</option>
                     </select>
                   </td> 
                   <td></td> 
                   <td>
                     <select>
-                      <option disabled value selected="selected" value=""></option>
+                      <option disabled selected="selected" value=""></option>
                       <option value="pend">Pendiente</option>
                       <option value="confirm">Confirmado</option>
                       <option value="cancel">Cancelado</option>
@@ -93,7 +93,7 @@ import {
                   <td></td>
                   <td>
                   <select>
-                      <option disabled value selected="selected" value="">Atiende</option>
+                      <option disabled selected="selected" value="">Atiende</option>
                     </select>
                   </td>
                   <td></td>

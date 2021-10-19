@@ -42,7 +42,7 @@ function Rventa() {
       </div>
       <br></br>
       <div align="right">
-        <button class="menubutton" onClick={() => {
+        <button className="menubutton" onClick={() => {
           history.goBack();
         }} type="submit">Menú</button>
       </div>
@@ -58,11 +58,7 @@ function Rventa() {
               <tr>
 
                 <td><br></br>
-                  <select type="text" name="" id="folio">
-                    <option disabled value selected="true" >Folio Cliente </option>
-                    <option value="folio1">0000001</option>
-                    <option value="folio2">0000002</option>
-                    </select></td>
+                <input size="30" type="text" id="folio_membresia" placeholder="Folio Membresía"></input></td>
               </tr>
               <br></br>
               <tr>
@@ -89,9 +85,14 @@ function Rventa() {
               </Row>
               <br></br>
               <Row>
-                <Col><img type="button" class="AddNew logos" src="/icon_plus.jpg"></img></Col>
+                <Col><img type="button" className="AddNew logos" src="/icon_plus.jpg" alt="plus"></img></Col>
               </Row>
               </Container>
+                <br></br>
+              <tr>
+                <td><label for="acompañante"><b># Acompañantes</b></label><br></br>
+                  <input size="30" type="text" id="acompañante"></input></td>
+              </tr>
                 <br></br>
               <tr>
                 <td><label for="ticketnova"><b># Ticket: </b></label><br></br>
@@ -117,8 +118,8 @@ function Rventa() {
           </table>
           <br></br>
           <div align="center">
-            <button class="buttong" type="submit" name="registrar">Registrar</button>&nbsp;&nbsp;&nbsp;&nbsp;
-            <button class="buttong" type="submit" name="registraryag">Registrar y Agendar</button>
+            <button className="buttong" type="submit" name="registrar">Registrar</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button className="buttong" type="submit" name="registraryag">Registrar y Agendar</button>
           </div>
           <br></br>
         

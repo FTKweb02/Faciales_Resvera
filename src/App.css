@@ -94,6 +94,7 @@
   width: 210px;
   height: 40px;
   border: 1px solid white;
+  background-color: transparent;
 }
 
 .menubutton {
@@ -141,30 +142,7 @@
   width: 50px;
   height: 50px;
 }
-.logovv {
-  width:120px;
-  height: 50px;
-}
 
-.logoog {
-  width:100px;
-  height: 50px;
-}
-
-.logores {
-  width:100px;
-  height: 50px;
-}
-
-.logoumaf {
-  width:100px;
-  height: 50px;
-}
-
-.logovvxp {
-  width:100px;
-  height: 50px;
-}
 
 /*Navbar*/
 .color-nav {
@@ -175,7 +153,7 @@
 /*Table Borders*/
 .table_border {
   border: 1px solid black;
-  width: 50vw;
+  width: 100%;
   padding: 10px;
 }
 
@@ -191,12 +169,12 @@
   padding: 10px;
 }
 
-/*Tooltip*/
 /* Tooltip container */
 .tooltip {
   position: absolute;
   display: inline-block;
   opacity: 1 !important;
+  font-size: medium !important;
 }
 
 /* Tooltip text */
@@ -212,13 +190,14 @@
   padding: 5px 0;
   border-radius: 6px;
  
-  /* Position the tooltip text - see examples below! */
+  /* Position the tooltip text*/
   position: absolute;
   z-index: 1;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
 
+
+ 

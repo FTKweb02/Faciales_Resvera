@@ -2,7 +2,6 @@ import React from "react";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link, useHistory } from "react-router-dom";
-import $ from "jquery";
 import './rCliente.css';
 import {
   Container,
@@ -34,7 +33,7 @@ function Rcliente() {
         <Row>
           <Col></Col>
           <Col sm={10} align="center"><h1>Registrar Cliente</h1></Col>
-          <Col><button class="menubutton" onClick={() => {
+          <Col><button className="menubutton" onClick={() => {
             history.goBack();
           }} type="submit">Menú</button></Col>
         </Row>
@@ -108,10 +107,10 @@ function Rcliente() {
           </Row>
           <Row className="justify-content-md-center">
             <Col xs lg="1">
-              <button class="buttonis" type="submit" name="guardar">Guardar</button><br></br>
+              <button className="buttonis" type="submit" name="guardar">Guardar</button><br></br>
             </Col>
             <Col xs lg="1">
-              <button class="buttonis" type="submit" name="regyage">Guardar&nbsp;y&nbsp;Agendar</button>
+              <button className="buttonis" type="submit" name="regyage">Guardar&nbsp;y&nbsp;Agendar</button>
             </Col>
           </Row>
           <br></br>

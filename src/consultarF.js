@@ -31,7 +31,7 @@ import {
                 </div> 
                 <br></br>
                 <div align="right" >
-                <button class="menubutton" onClick={() => {
+                <button className="menubutton" onClick={() => {
                     history.goBack();
                 }} type="submit">Menú</button>
                 </div>
@@ -54,11 +54,11 @@ import {
                   </Row>
                 <br></br>
                 <div align="center">
-                  <button class="buttonis" type="submit">Consultar</button>
+                  <button className="buttonis" type="submit">Consultar</button>
                 </div>
                 <br></br>
                 <div align="center">
-                <table width="100%" class="magia">
+                <table width="100%" className="magia">
                   <thead>
                     <tr>
                      <th>Tratamiento</th>
@@ -70,7 +70,7 @@ import {
                   <tbody>
                     <tr>
                       <td>Nombre Tratamiento</td>
-                      <td><button type="submit" class="buttonis">Agendar</button></td>
+                      <td><button type="submit" className="buttonis">Agendar</button></td>
                       <td></td>
                      <td></td>
                    </tr>

@@ -25,13 +25,13 @@ import {
                 </div> 
                 <br></br>
                 <div align="right">
-                <button  class="menubutton" onClick={() => {
+                <button  className="menubutton" onClick={() => {
                     history.goBack();
                 }} type="submit">Menú</button>
                 </div>
                 <br></br>
                 <div align="center">
-                <a class="agpro" href="https://agendapro.com/mx/clients" target="_blank">Consultar</a>
+                <h1>Consultar</h1>
                 </div>
               </>
             );

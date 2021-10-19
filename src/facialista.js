@@ -45,7 +45,7 @@ import {
                   <br></br>
                   <br></br>
                   <Link to="/citfac">
-                  <button class="buttong" type="submit">Seleccionar</button>
+                  <button className="buttong" type="submit">Seleccionar</button>
                   </Link>
                 </Container>
         

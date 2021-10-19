@@ -38,46 +38,33 @@ class Config extends React.Component {
           <br></br>
           <Row>
             <Col><Link to="/">
-              <button class="button">Marca</button>
+              <button className="button">Marca</button>
             </Link></Col>
             <br></br>
             <br></br>
             <Col><Link to="/">
-              <button class="button">Usuario</button>
+              <button className="button">Usuario</button>
             </Link></Col>
           </Row>
           <br></br>
           <Row>
             <Col><Link to="/">
-              <button class="button">Sucursal</button>
+              <button className="button">Sucursal</button>
             </Link></Col>
             <br></br>
             <br></br>
             <Col><Link to="/">
-              <button class="button">Facialista</button>
+              <button className="button">Tecnología</button>
             </Link></Col>
           </Row>
           <br></br>
           <Row>
             <Col><Link to="/">
-              <button class="button">Servicio/Tratamiento</button>
+              <button className="button">Servicio/Tratamiento</button>
             </Link></Col>
             <br></br>
             <br></br>
-            <Col><Link to="/">
-              <button class="button">Asesor</button>
-            </Link></Col>
-          </Row>
-          <br></br>
-          <Row>
-            <Col><Link to="/">
-              <button class="button">Tecnología</button>
-            </Link></Col>
-            <br></br>
-            <br></br>
-            <Col><Link to="/">
-              <button class="button">Asesor Telefónico</button>
-            </Link></Col>
+            <Col><button className="buttonh" type="submit" disabled value></button></Col>
           </Row>
           <br></br>
         </Container>

@@ -34,27 +34,27 @@ class Contactc extends React.Component {
             <h1>Menú</h1>
             <br></br>
             <Link to="/agendarc">
-            <button class="button" type="submit">Agendar</button>
+            <button className="button" type="submit">Agendar</button>
             </Link>
             <br></br>
             <br></br>
             <Link to="/rventa">
-            <button class="button" type="submit">Registrar Membresía</button>
+            <button className="button" type="submit">Registrar Membresía</button>
             </Link>
             <br></br>
             <br></br>
             <Link to="/pendientes">
-            <button class="button" type="submit">Pendientes</button>
+            <button className="button" type="submit">Pendientes</button>
             </Link>
             <br></br>
             <br></br>
             <Link to="/calendario">
-            <button class="button" type="submit">Calendario</button>
+            <button className="button" type="submit">Calendario</button>
             </Link>
             <br></br>
             <br></br>
             <Link to="/clientescc">
-            <button class="button" type="submit">Clientes</button>
+            <button className="button" type="submit">Clientes</button>
             </Link>
             <br></br>
             <br></br>

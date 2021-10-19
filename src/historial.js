@@ -29,7 +29,7 @@ import {
                 </div> 
                 <br></br>
                 <div align="right" >
-                <button class="menubutton" onClick={() => {
+                <button className="menubutton" onClick={() => {
                     history.goBack();
                 }} type="submit">Menú</button>
                 </div>
@@ -41,13 +41,13 @@ import {
                   </Row>
                   <br></br>
                   <Row>
-                    <Col><h4 class="texts"># Servicios: <u>'Cantidad'.</u></h4>
+                    <Col><h4 className="texts"># Servicios: <u>'Cantidad'.</u></h4>
                   <br></br>
-                  <h4 class="texts">Monto Servicios: <u>'$ Cantidad'.</u></h4>
+                  <h4 className="texts">Monto Servicios: <u>'$ Cantidad'.</u></h4>
                   <br></br>
-                  <h4 class="texts">Venta total: <u>'$ Cantidad'.</u></h4>
+                  <h4 className="texts">Venta total: <u>'$ Cantidad'.</u></h4>
                   <br></br>
-                  <h4 class="texts">Mis citas totales (mes): <u>'Cantidad'.</u></h4>
+                  <h4 className="texts">Mis citas totales (mes): <u>'Cantidad'.</u></h4>
                   <br></br></Col>
                   <Col><h2>1er Lugar Monto Vendido: <b><u>'$100000.00'</u></b></h2></Col>
                   </Row>

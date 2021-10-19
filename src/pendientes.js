@@ -1,51 +1,51 @@
 import React from "react";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import {Link, useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import {
   Table,
   Container,
-  Navbar,
- 
+  Navbar
+
 } from "reactstrap";
 
-    function Pendientes() {
+function Pendientes() {
 
-      const history = useHistory();
-      
-            return (
-        
-              <>
-                <div>
-                  <Navbar className="color-nav" variant="light">
-                    <Link to="/">  
-                        <input type="image" id="image" alt="Home" src="Logo-FTK-new-blanco.png" width="150px"/>
-                    </Link>
-                    <Link to="/">
-                      <button className="buttonis">Cerrar Sesión</button>
-                    </Link>
-                  </Navbar>  
-                </div> 
-                <br></br>
-                <div align="right">
-                <button  class="menubutton" onClick={() => {
-                    history.goBack();
-                }} type="submit">Menú</button>
-                </div>
-                <Container class="bckgc">
+  const history = useHistory();
+
+  return (
+
+    <>
+      <div>
+        <Navbar className="color-nav" variant="light">
+          <Link to="/">
+            <input type="image" id="image" alt="Home" src="Logo-FTK-new-blanco.png" width="150px" />
+          </Link>
+          <Link to="/">
+            <button className="buttonis">Cerrar Sesión</button>
+          </Link>
+        </Navbar>
+      </div>
+      <br></br>
+      <div align="right">
+        <button className="menubutton" onClick={() => {
+          history.goBack();
+        }} type="submit">Menú</button>
+      </div>
+      <Container className="bckgc">
         <br />
         <table>
           <tbody>
             <tr>
               <td width="950px"><h2>Nombre Empleado</h2></td>
-              <td><button class="buttong">Nuevo Registro</button></td>
+              <td><button className="buttong">Nuevo Registro</button></td>
             </tr>
           </tbody>
         </table>
-          <br />
-          <Table>
+        <br />
+        <Table>
             <thead>
-              <tr class="tablecolor">
+              <tr className="tablecolor">
                 <th>ID</th>
                 <th>Fecha</th>
                 <th>Tienda</th>
@@ -60,15 +60,15 @@ import {
               </tr>
             </thead>
 
-            <tbody class="tablecolor">
+            <tbody className="tablecolor">
                 <tr>
                   <td>1</td>
                   <td><input type="date"></input></td>
                   <td>Vine&nbsp;Vera&nbsp;1</td>
                   <td>Vendedor&nbsp;1</td> 
                   <td>
-                    <div class="tooltip">Cliente&nbsp;1
-                    <span class="tooltiptext">Datos Cliente<br></br>Nombre<br></br>Tratamiento<br></br>Total&nbsp;Sesiones</span>
+                    <div className="tooltip">Cliente&nbsp;1
+                    <span className="tooltiptext">Datos Cliente<br></br>Nombre<br></br>Tratamiento<br></br>Total&nbsp;Sesiones</span>
                     </div></td>  
                   <td align="center">Nombre&nbsp;Empleado</td> 
                   <td><select id="estatus">
@@ -86,10 +86,11 @@ import {
                 </tr>
             </tbody>
           </Table>
-        </Container>
 
-              </>
-            );
-          }
-        
-    export default Pendientes;
+      </Container>
+
+    </>
+  );
+}
+
+export default Pendientes;
