@@ -1,21 +1,21 @@
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Login from "./login.js";
-import Ccenter from "./ccenter.js";
+import Ccenter from "./ventas/ccenter.js";
 import Calendario from "./calendario.js";
-import Rcliente from "./rCliente.js";
+import Rcliente from "./ventas/rCliente.js";
 import Rventa from "./rVenta.js";
-import Consultarf from "./consultarF.js";
+import Consultarf from "./ventas/consultarF.js";
 import Agendarc from "./agendarC.js";
-import Consultarc from "./consultarC.js"
-import Historial from "./historial.js";
-import Contactc from "./contactc.js"
-import Clientescc from "./clientescc.js";
-import Pendientes from "./pendientes.js";
-import Facialista from "./facialista.js";
-import Citfac from "./citfac.js";
-import Config from "./config.js";
-import Citafac from "./citafac.js";
+import Consultarc from "./ventas/consultarC.js"
+import Historial from "./ventas/historial.js";
+import Contactc from "./contactc/contactc.js"
+import Clientescc from "./contactc/clientescc.js";
+import Pendientes from "./contactc/pendientes.js";
+import Facialista from "./facialista/facialista.js";
+import Citfac from "./facialista/citfac.js";
+import Config from "./admin/config.js";
+import Citafac from "./facialista/citafac.js";
 
 
 const rootElement = document.getElementById("root");

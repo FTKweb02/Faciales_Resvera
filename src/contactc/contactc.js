@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Link} from "react-router-dom";
 import {
@@ -9,7 +9,7 @@ import {
 } from "reactstrap";
 
 
-class Admin extends React.Component {
+class Contactc extends React.Component {
 
 
   render() {
@@ -31,41 +31,33 @@ class Admin extends React.Component {
       
         <Container align="center">
             <br></br>
-            <h1>Menú Configuración</h1>
+            <h1>Menú</h1>
+            <br></br>
+            <Link to="/agendarc">
+            <button className="button" type="submit">Agendar</button>
+            </Link>
+            <br></br>
+            <br></br>
+            <Link to="/rventa">
+            <button className="button" type="submit">Registrar Membresía</button>
+            </Link>
+            <br></br>
+            <br></br>
+            <Link to="/pendientes">
+            <button className="button" type="submit">Pendientes</button>
+            </Link>
+            <br></br>
             <br></br>
             <Link to="/calendario">
             <button className="button" type="submit">Calendario</button>
             </Link>
             <br></br>
             <br></br>
-            <Link to="/rcliente">
-            <button className="button" type="submit">Registrar Cliente</button>
+            <Link to="/clientescc">
+            <button className="button" type="submit">Clientes</button>
             </Link>
             <br></br>
             <br></br>
-            <Link to="/rventa">
-            <button className="button" type="submit">Registrar Venta</button>
-            </Link>
-            <br></br>
-            <br></br>
-            <Link to="/consultarf">
-            <button className="button" type="submit">Consultar Folio</button>
-            </Link>
-            <br></br>
-            <br></br>
-            <Link to="/agendarc">
-            <button className="button" type="submit">Agendar Cita</button>
-            </Link>
-            <br></br>
-            <br></br>
-            <Link to="/consultarc">
-            <button className="button" type="submit">Consultar Cita</button>
-            </Link>
-            <br></br>
-            <br></br>
-            <Link to="/historial">
-            <button className="button" type="submit">Mi historial</button>
-            </Link>
         </Container>
 
         
@@ -74,4 +66,4 @@ class Admin extends React.Component {
   }
 }
 
-export default Admin;
+export default Contactc;

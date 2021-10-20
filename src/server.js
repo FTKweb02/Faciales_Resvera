@@ -14,9 +14,9 @@ var connection  = mysql.createConnection({
 
 connection.connect();
 
-connection.query(`select * from ${table}`, function(err, rows, fields){
+connection.query(`select * from ${table}`, function(err, rows){
   if (err) throw err;
-  console.log('The solution is: ', rows.fields);
+  console.log(rows.rows);
 });
 
 connection.end()
@@ -25,7 +25,7 @@ app.listen(port, () => {
   console.log(`App server now listening to port ${port}`);
 });
 
-app.get('/api/users/', (req, res) => {
+app.get('/usuario/:id', (req, res) => {
   pool.query(`select * from ${table}`, (err, rows) => {
     if (err) {
       res.send(err);
