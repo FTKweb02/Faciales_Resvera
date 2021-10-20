@@ -30,43 +30,43 @@ class Config extends React.Component {
             </Link>
           </Navbar>
         </div>
-        <br></br>
-        <Container align="center">
-          <br></br>
+        <br/>
+        <Container align="center" className="botomnes">
+          <br/>
           <h1>Configuración</h1>
-          <br></br>
-          <br></br>
+          <br/>
+          <br/>
           <Row>
             <Col><Link to="/">
-              <button className="button">Marca</button>
+              <button>Marca</button>
             </Link></Col>
-            <br></br>
-            <br></br>
+            <br/>
+            <br/>
             <Col><Link to="/">
-              <button className="button">Usuario</button>
+              <button>Usuario</button>
             </Link></Col>
           </Row>
-          <br></br>
+          <br/>
           <Row>
             <Col><Link to="/">
-              <button className="button">Sucursal</button>
+              <button>Sucursal</button>
             </Link></Col>
-            <br></br>
-            <br></br>
+            <br/>
+            <br/>
             <Col><Link to="/">
-              <button className="button">Tecnología</button>
+              <button>Tecnología</button>
             </Link></Col>
           </Row>
-          <br></br>
+          <br/>
           <Row>
             <Col><Link to="/">
-              <button className="button">Servicio/Tratamiento</button>
+              <button>Servicio/Tratamiento</button>
             </Link></Col>
-            <br></br>
-            <br></br>
-            <Col><button className="buttonh" type="submit" disabled value></button></Col>
+            <br/>
+            <br/>
+            <Col><button className="buttonh" disabled></button></Col>
           </Row>
-          <br></br>
+          <br/>
         </Container>
 
       </>

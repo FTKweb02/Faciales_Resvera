@@ -23,13 +23,13 @@ import {
                     </Link>
                   </Navbar>  
                 </div> 
-                <br></br>
+                <br/>
                 <div align="right">
                 <button  className="menubutton" onClick={() => {
                     history.goBack();
                 }} type="submit">Menú</button>
                 </div>
-                <br></br>
+                <br/>
                 <div align="center">
                 <h1>Consultar</h1>
                 </div>

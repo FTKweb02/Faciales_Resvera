@@ -26,13 +26,13 @@ import {
                 </div> 
         
                 <Container align="center">
-                <br></br>
+                <br/>
                   <div>
                     <h1>Seleccionar Sucursal</h1>
-                    <br></br>
+                    <br/>
                   </div>
                   <label><b>Sucursal: </b></label>
-                  <br></br>
+                  <br/>
                   <select>
                     <option selected="" value=""></option>
                     <option value="cabina1">Sucursal 1</option>
@@ -42,8 +42,8 @@ import {
                     <option value="cabina5">Sucursal 5</option>
                     <option value="cabina6">Sucursal 6</option>
                   </select>
-                  <br></br>
-                  <br></br>
+                  <br/>
+                  <br/>
                   <Link to="/citfac">
                   <button className="buttong" type="submit">Seleccionar</button>
                   </Link>

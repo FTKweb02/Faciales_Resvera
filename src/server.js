@@ -16,16 +16,16 @@ connection.connect();
 
 connection.query(`select * from ${table}`, function(err, rows){
   if (err) throw err;
-  console.log(rows.rows);
+  console.log('The solution is: ', rows);
 });
 
-connection.end()
+connection.end();
 
 app.listen(port, () => {
   console.log(`App server now listening to port ${port}`);
 });
 
-app.get('/usuario/:id', (req, res) => {
+app.get('/api/users/', (req, res) => {
   pool.query(`select * from ${table}`, (err, rows) => {
     if (err) {
       res.send(err);

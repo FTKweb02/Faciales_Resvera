@@ -27,28 +27,28 @@ import {
                     </Link>
                   </Navbar>  
                 </div> 
-                <br></br>
+                <br/>
                 <div align="right" >
                 <button className="menubutton" onClick={() => {
                     history.goBack();
                 }} type="submit">Menú</button>
                 </div>
-                <br></br>
+                <br/>
                 <Container fluid>
                   <Row>
                     <Col><h2>Historial de ventas de: <b>'Vendedor'</b></h2></Col>
                     <Col><h2>1er Lugar Servicios Vendidos: <b>'Vendedor'</b></h2></Col>
                   </Row>
-                  <br></br>
+                  <br/>
                   <Row>
                     <Col><h4 className="texts"># Servicios: <u>'Cantidad'.</u></h4>
-                  <br></br>
+                  <br/>
                   <h4 className="texts">Monto Servicios: <u>'$ Cantidad'.</u></h4>
-                  <br></br>
+                  <br/>
                   <h4 className="texts">Venta total: <u>'$ Cantidad'.</u></h4>
-                  <br></br>
+                  <br/>
                   <h4 className="texts">Mis citas totales (mes): <u>'Cantidad'.</u></h4>
-                  <br></br></Col>
+                  <br/></Col>
                   <Col><h2>1er Lugar Monto Vendido: <b><u>'$100000.00'</u></b></h2></Col>
                   </Row>
                 </Container>

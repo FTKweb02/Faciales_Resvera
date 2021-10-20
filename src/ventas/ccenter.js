@@ -31,64 +31,64 @@ class Ccenter extends React.Component {
           </Navbar>
         </div>
 
-        <br></br>
+        <br/>
           <h1 align="center">Menú</h1>
-          <br></br>
-          <br></br>
+          <br/>
+          <br/>
 
-        <Container align="center">
+        <Container align="center" className="botomnes">
 
           <Row>
             <Col>
           <Link to="/calendario">
-            <button className="button" type="submit">Calendario</button>
+            <button>Calendario</button>
           </Link>
-          <br></br>
+          <br/>
           </Col>
-          <br></br>
-          <br></br>
+          <br/>
+          <br/>
           <Col>
           <Link to="/rcliente">
-            <button className="button" type="submit">Registrar Cliente</button>
+            <button>Registrar Cliente</button>
           </Link>
-          <br></br>
+          <br/>
           </Col>
           </Row>
-          <br></br>
+          <br/>
           <Row>
             <Col>
           <Link to="/rventa">
-            <button className="button" type="submit">Registrar Membresia</button>
+            <button>Registrar Membresia</button>
           </Link>
-          <br></br>
+          <br/>
           </Col>
-          <br></br>
-          <br></br>
+          <br/>
+          <br/>
           <Col>
           <Link to="/consultarf">
-            <button className="button" type="submit">Consultar Folio</button>
+            <button>Consultar Folio</button>
           </Link>
-          <br></br>
+          <br/>
           </Col>
           </Row>
-          <br></br>
+          <br/>
           <Row>
             <Col>
           <Link to="/agendarc">
-            <button className="button" type="submit">Agendar Cita</button>
+            <button>Agendar Cita</button>
           </Link>
-          <br></br>
+          <br/>
           </Col>
-          <br></br>
-          <br></br>
+          <br/>
+          <br/>
           <Col>
           <Link to="/consultarc">
             <button className="button" type="submit">Consultar Cita</button>
           </Link>
-          <br></br>
+          <br/>
           </Col>
           </Row>
-          <br></br>
+          <br/>
           <Row>
             <Col>
           <Link to="/historial">
@@ -99,7 +99,7 @@ class Ccenter extends React.Component {
           </Row>
 
         </Container>
-        <br></br>
+        <br/>
       </>
     );
   }

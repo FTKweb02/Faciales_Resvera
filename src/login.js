@@ -22,19 +22,19 @@ function Login() {
       </div>
 
       <Container align="center">
-        <br></br>
-        <br></br>
-        <br></br>
+        <br/>
+        <br/>
+        <br/>
         <div>
           <h1>Inicio de Sesión</h1>
           <form method="post">
-            <br></br>
+            <br/>
             <input type="text" placeholder="ID" name="id" required></input>
-            <br></br>
-            <br></br>
-            <input id="password-field" type="password" name="password" placeholder="Contraseña" required></input>
-            <br></br>
-            <br></br>
+            <br/>
+            <br/>
+            <input id="password-field" type="password" name="password" placeholder="Contraseña" minlength="8" maxlength="12" required></input>
+            <br/>
+            <br/>
             <Link to="/ccenter">
               <button className="buttong" type="submit" name="is">Iniciar sesión</button>
             </Link>

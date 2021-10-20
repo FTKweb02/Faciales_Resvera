@@ -40,7 +40,7 @@ function Rventa() {
           </Link>
         </Navbar>
       </div>
-      <br></br>
+      <br/>
       <div align="right">
         <button className="menubutton" onClick={() => {
           history.goBack();
@@ -48,7 +48,7 @@ function Rventa() {
       </div>
       <Form method="post">
         <h1 align="center">Registrar Membresía</h1>
-          <br></br>
+          <br/>
           <table align="center">
             <tbody>
               <tr>
@@ -57,71 +57,71 @@ function Rventa() {
               </tr>
               <tr>
 
-                <td><br></br>
+                <td><br/>
                 <input size="30" type="text" id="folio_membresia" placeholder="Folio Membresía"></input></td>
               </tr>
-              <br></br>
+              <br/>
               <tr>
-                <td><label for="idasesor"><b>ID Asesor: </b></label><br></br>
+                <td><label for="idasesor"><b>ID Asesor: </b></label><br/>
                   <input size="30" type="text" id="idasesor"></input></td>
               </tr>
-              <br></br>
+              <br/>
               <tr>
-                <td><label for="fechacompra"><b>Fecha Compra: </b></label><br></br>
+                <td><label for="fechacompra"><b>Fecha Compra: </b></label><br/>
                   <input type="date" id="fechacompra"></input></td>
               </tr>
-              <br></br>
-              <Container>
+              <br/>
+              <Container className="table_border">
               <Row>
                 <Col>
-                  <label for="cat">Categoría</label><br></br><input type="text" id="cat"></input>
+                  <label for="cat">Categoría</label><br/><input type="text" id="cat"></input>
                 </Col>
                 <Col>
-                  <label for="cant">Cantidad</label><br></br><input type="text" id="cant"></input>
+                  <label for="cant">Cantidad</label><br/><input type="text" id="cant"></input>
                 </Col>
                 <Col>
-                  <label for="notas">Notas</label><br></br><input type="textarea" id="notas"></input>
+                  <label for="notas">Notas</label><br/><input type="textarea" id="notas"></input>
                 </Col>
               </Row>
-              <br></br>
+              <br/>
               <Row>
                 <Col><img type="button" className="AddNew logos" src="/icon_plus.jpg" alt="plus"></img></Col>
               </Row>
               </Container>
-                <br></br>
+                <br/>
               <tr>
-                <td><label for="acompañante"><b># Acompañantes</b></label><br></br>
+                <td><label for="acompañante"><b># Acompañantes</b></label><br/>
                   <input size="30" type="text" id="acompañante"></input></td>
               </tr>
-                <br></br>
+                <br/>
               <tr>
-                <td><label for="ticketnova"><b># Ticket: </b></label><br></br>
+                <td><label for="ticketnova"><b># Ticket: </b></label><br/>
                   <input size="30" type="text" id="ticketnova"></input></td>
               </tr>
-              <br></br>
+              <br/>
               <tr>
-                <td><label for="importep"><b>Importe Total (Ticket): </b></label><br></br>
+                <td><label for="importep"><b>Importe Total (Ticket): </b></label><br/>
                   <input size="30" type="text" id="importep"></input></td>
               </tr>
-              <br></br>
+              <br/>
               <tr>
                 <td><label for="descuento"><b>Descuento: </b></label></td>
-                <br></br>
+                <br/>
               </tr>
               <h5>'Generado automáticamente con base al Importe Total'</h5>
-              <br></br>
+              <br/>
               <tr>
-                <td><label for="observaciones"><b>Observaciones: </b></label><br></br>
+                <td><label for="observaciones"><b>Observaciones: </b></label><br/>
                   <input size="30" type="text" id="observaciones"></input></td>
               </tr>
             </tbody>
           </table>
-          <br></br>
+          <br/>
           <div align="center">
             <button className="buttong" type="submit" name="registrar">Registrar</button>&nbsp;&nbsp;&nbsp;&nbsp;
             <button className="buttong" type="submit" name="registraryag">Registrar y Agendar</button>
           </div>
-          <br></br>
+          <br/>
         
       </Form>
     </>

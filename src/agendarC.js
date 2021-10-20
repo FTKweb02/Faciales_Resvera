@@ -28,15 +28,15 @@ function Agendarc() {
           </Link>
         </Navbar>
       </div>
-      <br></br>
+      <br/>
       <div align="right">
         <button className="menubutton" onClick={() => {
           history.goBack();
         }} type="submit">Menú</button>
       </div>
-      <br></br>
+      <br/>
       <h1 align="center">Agendar</h1>
-      <br></br>
+      <br/>
       <Form action="post">
         <Container align="center" fluid>
           <Row>
@@ -44,35 +44,35 @@ function Agendarc() {
               <input type="text" placeholder="Nombre" required></input>
             </Col>
           </Row>
-          <br></br>
+          <br/>
           <Row>
             <Col>
               <input type="text" placeholder="Apellido" required></input>
             </Col>
           </Row>
-          <br></br>
+          <br/>
           <Row>
             <Col>
-              <label for="tec">Tecnologías</label><br></br>
+              <label for="tec">Tecnologías</label><br/>
               <input type="radio" name="tratamiento" value="tec"></input>
             </Col>
             <Col>
-              <label for="faciales">Faciales</label><br></br>
+              <label for="faciales">Faciales</label><br/>
               <input type="radio" name="tratamiento" value="faciales"></input>
             </Col>
             <Col>
-              <label for="mesvirt">Mesoterapia</label><br></br>
+              <label for="mesvirt">Mesoterapia</label><br/>
               <input type="radio" name="tratamiento" value="meso"></input>
             </Col>
             <Col>
-              <label for="ME">Medicina Estética</label><br></br>
+              <label for="ME">Medicina Estética</label><br/>
               <input type="radio" disabled name="tratamiento" value="ME"></input>
             </Col>
           </Row>
           <Row>
             <Col>
               <select>
-                <option disabled selected >Tecnologías</option>
+                <option disabled selected>Tecnologías</option>
                 <option value="">Reskin</option>
                 <option value="">Reskin (Avanzado)</option>
                 <option value="">Skin Glow</option>
@@ -87,7 +87,7 @@ function Agendarc() {
             </Col>
             <Col>
               <select>
-                <option disabled selected="selected">Faciales</option>
+                <option disabled selected>Faciales</option>
                 <option value="">Facial Hydratance</option>
                 <option value="">Facial Hydratance (Avanzado)</option>
                 <option value="">Facial Lifting</option>
@@ -100,7 +100,7 @@ function Agendarc() {
             </Col>
             <Col>
               <select>
-                <option disabled selected="selected" >Mesoterapia</option>
+                <option disabled selected>Mesoterapia</option>
                 <option value="">D pigment</option>
                 <option value="">Radiance Skin</option>
                 <option value="">Skin Light</option>
@@ -109,33 +109,33 @@ function Agendarc() {
             </Col>
             <Col>
               <select>
-                <option disabled selected="selected" >Médicina Estética</option>
+                <option disabled selected>Médicina Estética</option>
               </select>
             </Col>
           </Row>
-          <br></br>
-          <label for="date">Horario:</label><br></br>
-          <input type="datetime-local" value="date" id="start"></input><br></br>
-          <br></br>
+          <br/>
+          <label for="date">Horario:</label><br/>
+          <input type="datetime-local" value="date" id="start"></input><br/>
+          <br/>
           <input type="tel" placeholder="Teléfono" required-pattern="[0-9]{10}"></input>
-          <br></br>
-          <br></br>
+          <br/>
+          <br/>
           <input type="email" placeholder="E-Mail" required></input>
-          <br></br>
-          <br></br>
+          <br/>
+          <br/>
           <textarea className="formutexto" type="text" placeholder="Comentarios" name="texto" required rows="5" cols="30"></textarea>
-          <br></br>
-          <br></br>
-          <label>Pagado:</label><br></br>
+          <br/>
+          <br/>
+          <label>Pagado:</label><br/>
           <label for="si">Si</label>&nbsp;
           <input type="radio" name="pagado" id="si"></input>&nbsp;&nbsp;
           <label for="no">No</label>&nbsp;
           <input type="radio" name="pagado" id="no"></input>&nbsp;
-          <br></br>
-          <br></br>
+          <br/>
+          <br/>
           <button type="submit" value="agendar" className="buttonis">Agendar</button>
-          <br></br>
-          <br></br>
+          <br/>
+          <br/>
         </Container>
       </Form>
     </>

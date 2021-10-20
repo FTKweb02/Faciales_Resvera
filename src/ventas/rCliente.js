@@ -28,7 +28,7 @@ function Rcliente() {
           </Link>
         </Navbar>
       </div>
-      <br></br>
+      <br/>
       <Container>
         <Row>
           <Col></Col>
@@ -38,14 +38,14 @@ function Rcliente() {
           }} type="submit">Menú</button></Col>
         </Row>
       </Container>
-      <br></br>
-      <br></br>
+      <br/>
+      <br/>
       <form method="post">
         <Container fluid>
           <Row>
             <Col align="center">
               <label><b>Marca: </b></label>
-              <br></br>
+              <br/>
               <select>
                 <option selected="selected" value=""></option>
                 <option value="sucursal1">VV</option>
@@ -57,25 +57,25 @@ function Rcliente() {
               </select>
             </Col>
           </Row>
-          <br></br>
+          <br/>
           <Row>
             <Col align="center">
               <label><b>Sucursal: </b></label>
-              <br></br>
+              <br/>
               <select>
                 <option selected="selected" value=""></option>
                 <option value="sucursal1">Sucursal 1</option>
                 <option value="sucursal2">Sucursal 2</option>
                 <option value="sucursal3">Sucursal 3</option>
               </select>
-              <br></br>
+              <br/>
             </Col>
           </Row>
-          <br></br>
+          <br/>
           <Row>
             <Col align="center">
               <label><b>Asesor: </b></label>
-              <br></br>
+              <br/>
               <select>
                 <option selected="selected" value=""></option>
                 <option value="asesor1">Asesor 1</option>
@@ -83,37 +83,37 @@ function Rcliente() {
                 <option value="asesor3">Asesor 3</option>
               </select></Col>
           </Row>
-          <br></br>
+          <br/>
           <Row>
             <Col align="center">
               <input type="text" placeholder="Nombre" required></input>
-              <br></br>
-              <br></br>
+              <br/>
+              <br/>
               <input type="text" placeholder="Apellidos" required></input>
-              <br></br>
-              <br></br>
+              <br/>
+              <br/>
               <label><b>Cumpleaños: </b></label>
-              <br></br>
+              <br/>
               <input type="date" required></input>
-              <br></br>
-              <br></br>
+              <br/>
+              <br/>
               <input type="tel" placeholder="Teléfono 10 digitos" required-pattern="[0-9]{10}"></input>
-              <br></br>
-              <br></br>
+              <br/>
+              <br/>
               <input type="email" placeholder="E-mail" required></input>
-              <br></br>
-              <br></br>
+              <br/>
+              <br/>
             </Col>
           </Row>
           <Row className="justify-content-md-center">
             <Col xs lg="1">
-              <button className="buttonis" type="submit" name="guardar">Guardar</button><br></br>
+              <button className="buttonis" type="submit" name="guardar">Guardar</button><br/>
             </Col>
             <Col xs lg="1">
               <button className="buttonis" type="submit" name="regyage">Guardar&nbsp;y&nbsp;Agendar</button>
             </Col>
           </Row>
-          <br></br>
+          <br/>
         </Container>
       </form>
     </>

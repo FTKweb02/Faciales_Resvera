@@ -35,7 +35,7 @@ function Calendario() {
           </Link>
         </Navbar>
       </div>
-      <br></br>
+      <br/>
       <div align="right">
         <button className="menubutton" onClick={() => {
           history.goBack();

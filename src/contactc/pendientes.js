@@ -26,7 +26,7 @@ function Pendientes() {
           </Link>
         </Navbar>
       </div>
-      <br></br>
+      <br/>
       <div align="right">
         <button className="menubutton" onClick={() => {
           history.goBack();
@@ -45,7 +45,7 @@ function Pendientes() {
         <br />
         <Table>
             <thead>
-              <tr className="tablecolor">
+              <tr className="table_border">
                 <th>ID</th>
                 <th>Fecha</th>
                 <th>Tienda</th>
@@ -60,7 +60,7 @@ function Pendientes() {
               </tr>
             </thead>
 
-            <tbody className="tablecolor">
+            <tbody className="table_border">
                 <tr>
                   <td>1</td>
                   <td><input type="date"></input></td>
@@ -68,7 +68,7 @@ function Pendientes() {
                   <td>Vendedor&nbsp;1</td> 
                   <td>
                     <div className="tooltip">Cliente&nbsp;1
-                    <span className="tooltiptext">Datos Cliente<br></br>Nombre<br></br>Tratamiento<br></br>Total&nbsp;Sesiones</span>
+                    <span className="tooltiptext">Datos Cliente<br/>Nombre<br/>Tratamiento<br/>Total&nbsp;Sesiones</span>
                     </div></td>  
                   <td align="center">Nombre&nbsp;Empleado</td> 
                   <td><select id="estatus">

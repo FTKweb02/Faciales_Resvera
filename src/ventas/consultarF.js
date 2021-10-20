@@ -29,7 +29,7 @@ import {
                     </Link>
                   </Navbar>  
                 </div> 
-                <br></br>
+                <br/>
                 <div align="right" >
                 <button className="menubutton" onClick={() => {
                     history.goBack();
@@ -39,8 +39,13 @@ import {
                   <Row>
                     <Col>
                       <h1>Consultar Folio</h1>
-                      <br></br>
+                      <br/>
                       <input type="search" placeholder="Folio: "></input>
+                      <br/>
+                      <br/>
+                <div>
+                  <button className="buttonis" type="submit">Consultar</button>
+                </div>
                     </Col>
                     <Col>
                       <h6>Nombre: </h6>
@@ -52,11 +57,8 @@ import {
                       <h6>Acompañantes Restantes: </h6>
                     </Col>
                   </Row>
-                <br></br>
-                <div align="center">
-                  <button className="buttonis" type="submit">Consultar</button>
-                </div>
-                <br></br>
+                
+                <br/>
                 <div align="center">
                 <table width="100%" className="magia">
                   <thead>

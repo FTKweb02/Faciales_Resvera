@@ -14,6 +14,8 @@ import {
 
       const history = useHistory();
       const [value, onChange] = useState(new Date());
+
+      
   
             return (
         
@@ -28,21 +30,22 @@ import {
                     </Link>
                   </Navbar>  
                 </div>
-                <br></br>
+                <br/>
                 <div align="right">
                   <button className="menubutton" onClick={() => {
                     history.goBack();
                 }} type="submit">Menú</button>
                 </div>
-                <br></br>
-                <br></br>
+                <br/>
+                <br/>
                 <Container align="center">
                   <h1>Citas del día</h1>
-                  <br></br>
-                  <Calendar Date="today">
+                  <br/>
+                  <Calendar 
                     onChange={onChange}
                     value={value}
-                  </Calendar>
+                    
+                  ></Calendar>
                 </Container>
                 
               </>

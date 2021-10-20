@@ -77,24 +77,25 @@
 }
 
 /*Buttons Styles*/
-.button { 
+.buttonh { 
+  width: 210px;
+  height: 40px;
+  border: 1px solid white;
+  background-color: transparent !important;
+}
+
+.botomnes button{
   width: 210px;
   height: 40px;
   background-color: #a03f56;
   color: white; 
 }
 
-.button:hover{
+
+.botomnes button:hover{
   background-color:white; 
   color: #a03f56;
   transition: 0.5s;
-}
-
-.buttonh { 
-  width: 210px;
-  height: 40px;
-  border: 1px solid white;
-  background-color: transparent;
 }
 
 .menubutton {
